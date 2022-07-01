@@ -1,0 +1,22 @@
+.container {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.container-full {
+    width: 100%;
+}
+
+.row {
+    @extend .flex;
+    @extend .flex--justify-between;
+    @extend .align-center;
+    
+}
+
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width:calc((100%/12)*#{$i})
+    }
+}
