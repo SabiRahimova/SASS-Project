@@ -48,7 +48,60 @@
         }
     }
 
-    .header-slider{}
+    .home-content{
+        
+
+        .home-button{
+            @extend .flex;
+            @extend .align-center;
+            @extend .flex--justify-center;
+
+        }
+      
+        height: 350px;
+        flex-direction: column;
+        p{
+            @extend .flex;
+            @extend .align-center;
+            @extend .flex--justify-center;
+            
+            position: relative;
+            z-index: 3;
+            color: white;
+            font-size: 3.5rem;
+            font-weight: bolder;
+        }
+
+        a:hover i{
+            opacity: 1;
+            @extend .pl-10
+        }
+
+        a{
+            @extend .flex;
+            @extend .flex--justify-center;
+            position: relative;
+            z-index: 3;
+            color: white;
+            background-color: greenyellow;
+            font-size: 1rem;
+            border-radius: 100px;
+            width: 215px;
+           
+            i{
+                position: relative;
+                z-index: 3;
+                font-size: larger;
+                font-weight: 600;
+                color: white;
+                opacity: 0;
+            }
+
+            
+        }
+
+        
+    }
     
 
 
