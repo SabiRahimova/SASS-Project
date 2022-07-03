@@ -199,7 +199,7 @@ a {
   padding-top: 10px;
 }
 
-.pt-15 {
+.pt-15, #About .info-head i {
   padding-top: 15px;
 }
 
@@ -219,7 +219,7 @@ a {
   padding-top: 35px;
 }
 
-.pt-40 {
+.pt-40, #About .info-head {
   padding-top: 40px;
 }
 
@@ -602,6 +602,7 @@ a {
 
 body {
   background-color: #242424;
+  font-family: "Raleway", sans-serif;
 }
 
 #Home {
@@ -679,21 +680,28 @@ body {
 }
 #About .info-head {
   border: 1px solid green;
+  width: 630px;
 }
 #About .info-head h3 {
-  font-size: 3rem;
-  font-weight: bolder;
+  font-size: 3.5rem;
+  font-weight: 700;
   color: white;
 }
 #About .info-head p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #About .info-head span {
-  border-bottom: 1px solid white;
-  width: 25%;
+  border-bottom: 1px solid rgb(196, 194, 194);
+  width: 45%;
 }
 #About .info-head i {
   font-size: larger;
+}
+#About .info-head .info-hr {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: inherit;
 }/*# sourceMappingURL=main.min.css.map */
