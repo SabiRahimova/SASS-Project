@@ -1,3 +1,7 @@
+body{
+    background-color: $main-color;
+}
+
 #Home{
     border: 1px solid red;
     background-image: url(/new-project-img/cover-rotating-words.jpg);
@@ -49,7 +53,9 @@
     }
 
     .home-content{
-        
+        @extend .flex;
+            @extend .align-center;
+            @extend .flex--justify-center;
 
         .home-button{
             @extend .flex;
@@ -64,7 +70,7 @@
             @extend .flex;
             @extend .align-center;
             @extend .flex--justify-center;
-            
+            @extend .p-40;
             position: relative;
             z-index: 3;
             color: white;

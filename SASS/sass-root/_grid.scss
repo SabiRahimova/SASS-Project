@@ -9,7 +9,7 @@
 
 .row {
     @extend .flex;
-    @extend .flex--justify-between;
+    @extend .flex--justify-center;
     @extend .align-center;
     
 }

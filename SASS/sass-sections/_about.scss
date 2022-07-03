@@ -1,0 +1,39 @@
+#About{
+    border: 1px solid red;
+
+    .info{
+        @extend .p-20;
+        margin: 0px auto;
+
+    }
+
+    .info-head{
+        border: 1px solid green;
+        @extend .flex;
+        @extend .align-center;
+        @extend .flex--justify-center;
+        @extend .flex-column;
+
+        h3{
+            font-size: 3rem;
+            font-weight: bolder;
+            color: white;
+        }
+
+        p{
+            font-size: 1rem;
+            font-weight: 400;
+            color: white;
+        }
+
+        span{
+            border-bottom: 1px solid white;
+            width: 25%;
+        }
+
+        i{
+            font-size: larger;
+        }
+        
+    }
+}

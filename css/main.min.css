@@ -1,4 +1,4 @@
-body {
+body, p, h3 {
   margin: 0px;
   padding: 0px;
   font-size: 10px;
@@ -17,7 +17,7 @@ a {
   color: white;
 }
 
-.flex, #Home .home-content a, #Home .home-content p, #Home .home-content .home-button, #Home .header-navbar ul, .row {
+.flex, #About .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .home-button, #Home .home-content, #Home .header-navbar ul, .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,7 +35,7 @@ a {
           align-items: flex-end;
 }
 
-.align-center, #Home .home-content p, #Home .home-content .home-button, #Home .header-navbar ul, .row {
+.align-center, #About .info-head, #Home .home-content p, #Home .home-content .home-button, #Home .home-content, #Home .header-navbar ul, .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -65,7 +65,7 @@ a {
           justify-content: flex-end;
 }
 
-.flex--justify-center, #Home .home-content a, #Home .home-content p, #Home .home-content .home-button, #Home .header-navbar ul {
+.flex--justify-center, #About .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .home-button, #Home .home-content, #Home .header-navbar ul, .row {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -76,7 +76,7 @@ a {
       justify-content: space-around;
 }
 
-.flex--justify-between, .row {
+.flex--justify-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -86,6 +86,13 @@ a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.flex-column, #About .info-head {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .p-5 {
@@ -100,7 +107,7 @@ a {
   padding: 15px;
 }
 
-.p-20 {
+.p-20, #About .info {
   padding: 20px;
 }
 
@@ -116,7 +123,7 @@ a {
   padding: 35px;
 }
 
-.p-40 {
+.p-40, #Home .home-content p {
   padding: 40px;
 }
 
@@ -593,6 +600,10 @@ a {
   width: calc((100%/12)*12);
 }
 
+body {
+  background-color: #242424;
+}
+
 #Home {
   border: 1px solid red;
   background-image: url(/new-project-img/cover-rotating-words.jpg);
@@ -658,4 +669,31 @@ a {
   font-weight: 600;
   color: white;
   opacity: 0;
+}
+
+#About {
+  border: 1px solid red;
+}
+#About .info {
+  margin: 0px auto;
+}
+#About .info-head {
+  border: 1px solid green;
+}
+#About .info-head h3 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+}
+#About .info-head p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+}
+#About .info-head span {
+  border-bottom: 1px solid white;
+  width: 25%;
+}
+#About .info-head i {
+  font-size: larger;
 }/*# sourceMappingURL=main.min.css.map */
