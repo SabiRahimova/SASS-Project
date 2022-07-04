@@ -17,7 +17,7 @@ a {
   color: white;
 }
 
-.flex, #About .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.flex, #About .info-content .info-link, #About .info-content, #About .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,7 +35,7 @@ a {
           align-items: flex-end;
 }
 
-.align-center, #About .info-head, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.align-center, #About .info-content .info-link, #About .info-head, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -139,7 +139,7 @@ a {
   padding: 0 15px;
 }
 
-.px-20 {
+.px-20, #About .info-content .info-link span:nth-child(2), #About .info-content {
   padding: 0 20px;
 }
 
@@ -171,7 +171,7 @@ a {
   padding: 15px 0;
 }
 
-.py-20 {
+.py-20, #About .info-content h5 {
   padding: 20px 0;
 }
 
@@ -179,7 +179,7 @@ a {
   padding: 25px 0;
 }
 
-.py-30 {
+.py-30, #About .info-content p {
   padding: 30px 0;
 }
 
@@ -363,7 +363,7 @@ a {
   margin: 0 15px;
 }
 
-.mx-20 {
+.mx-20, #About .info-content .info-link span:nth-child(2) {
   margin: 0 20px;
 }
 
@@ -704,4 +704,33 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: inherit;
+}
+#About .info-content {
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#About .info-content h5 {
+  font-size: 2rem;
+  border-bottom: 1px solid rgb(145, 145, 145);
+  margin: 0px;
+}
+#About .info-content p {
+  font-size: 0.9rem;
+  letter-spacing: 0.6px;
+}
+#About .info-content .info-link {
+  width: inherit;
+}
+#About .info-content .info-link span {
+  font-size: 1rem;
+}
+#About .info-content .info-link span:nth-child(2) {
+  border-right: 1px solid rgb(148, 148, 148);
+  border-left: 1px solid rgb(148, 148, 148);
 }/*# sourceMappingURL=main.min.css.map */
