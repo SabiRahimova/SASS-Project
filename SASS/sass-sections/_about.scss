@@ -1,5 +1,5 @@
 #About{
-    border: 1px solid red;
+    
 
     .info{
         @extend .p-20;
@@ -47,6 +47,8 @@
         
     }
 
+    //info-content style 
+
 
     .info-content{
         color: white;
@@ -64,7 +66,7 @@
 
         p{
             font-size: 0.9rem;
-            letter-spacing: 0.6px;
+            line-height: 20px;
             @extend .py-30; 
            
             
@@ -79,6 +81,10 @@
             span{
                 font-size: 1rem;
                 
+            }
+            span:hover a{
+                color: $main-green;
+
             }
 
             span:nth-child(2) {
@@ -115,9 +121,11 @@
     
     }
 
+    //info-content-right style
+
     .info-content-right{
         border: 2px solid $main-green;
-        @extend .m-30;
+        @extend .m-40;
         position: relative;
         top: 20px;
         border-radius: 5px;
@@ -132,8 +140,38 @@
     }
 
 
+}
+
+#ProjectManager {
+    background-image: url(/images/projectmanager-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    margin-top: 50px;
+    &::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(0,0,0,0.6); 
+    }
 
 
+    .project-img{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+        img{
+            border-radius: 50%;
+            border: 15px solid #9acd32;
+            position: relative;
+            z-index: 3;
+        }
+    }
 
 }
     
