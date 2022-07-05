@@ -13,11 +13,10 @@ ul {
 
 a {
   text-decoration: none;
-  width: 0px;
   color: white;
 }
 
-.flex, #About .info-content .info-link, #About .info-content, #About .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.flex, #About .info-content .info-link, #About .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,7 +138,7 @@ a {
   padding: 0 15px;
 }
 
-.px-20, #About .info-content .info-link span:nth-child(2), #About .info-content {
+.px-20, #About .info-content .info-link span:nth-child(2), #About .info-head i {
   padding: 0 20px;
 }
 
@@ -147,7 +146,7 @@ a {
   padding: 0 25px;
 }
 
-.px-30 {
+.px-30, #About .info-content {
   padding: 0 30px;
 }
 
@@ -339,7 +338,7 @@ a {
   margin: 25px;
 }
 
-.m-30 {
+.m-30, #About .info-content-right {
   margin: 30px;
 }
 
@@ -391,7 +390,7 @@ a {
   margin: 10px 0;
 }
 
-.my-15 {
+.my-15, #About .info-content .main-button {
   margin: 15px 0;
 }
 
@@ -596,7 +595,7 @@ a {
   width: calc((100%/12)*11);
 }
 
-.col-12 {
+.col-12, #About .info-head {
   width: calc((100%/12)*12);
 }
 
@@ -678,10 +677,6 @@ body {
 #About .info {
   margin: 0px auto;
 }
-#About .info-head {
-  border: 1px solid green;
-  width: 630px;
-}
 #About .info-head h3 {
   font-size: 3.5rem;
   font-weight: 700;
@@ -693,27 +688,20 @@ body {
   color: rgb(255, 255, 255);
 }
 #About .info-head span {
-  border-bottom: 1px solid rgb(196, 194, 194);
-  width: 45%;
+  border-bottom: 1px solid rgb(145, 145, 145);
+  width: 30%;
 }
 #About .info-head i {
   font-size: larger;
 }
 #About .info-head .info-hr {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: inherit;
 }
 #About .info-content {
   color: white;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 #About .info-content h5 {
   font-size: 2rem;
@@ -733,4 +721,33 @@ body {
 #About .info-content .info-link span:nth-child(2) {
   border-right: 1px solid rgb(148, 148, 148);
   border-left: 1px solid rgb(148, 148, 148);
+}
+#About .info-content .main-button {
+  background-color: #9acd32;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+#About .info-content .main-button i {
+  opacity: 0;
+}
+#About .info-content .main-button:hover i {
+  opacity: 1;
+}
+#About .info-content-right {
+  border: 2px solid #9acd32;
+  position: relative;
+  top: 20px;
+  border-radius: 5px;
+}
+#About .info-content-right img {
+  width: 100%;
+  position: relative;
+  top: 25px;
+  right: 25px;
+  border-radius: 5px;
 }/*# sourceMappingURL=main.min.css.map */
