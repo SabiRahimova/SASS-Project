@@ -173,5 +173,38 @@
         }
     }
 
+    .project-content{
+        position: relative;
+        z-index: 3;
+        top: 20px;
+        color: white;
+        @extend .px-20;
+
+        .project-content-item{ 
+
+            h4{
+                font-size: 3rem;
+                @extend .my-20;
+            }
+
+            span{
+                font-size: 1.5rem;
+                @extend .my-20;
+            }
+
+            p{
+                font-size: 1rem;
+                @extend .my-20;
+            }
+
+        }
+    }
+
+
+
+
+
+
+
 }
     

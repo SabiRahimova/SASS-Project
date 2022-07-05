@@ -138,7 +138,7 @@ a {
   padding: 0 15px;
 }
 
-.px-20, #About .info-content .info-link span:nth-child(2), #About .info-head i {
+.px-20, #ProjectManager .project-content, #About .info-content .info-link span:nth-child(2), #About .info-head i {
   padding: 0 20px;
 }
 
@@ -394,7 +394,7 @@ a {
   margin: 15px 0;
 }
 
-.my-20 {
+.my-20, #ProjectManager .project-content .project-content-item p, #ProjectManager .project-content .project-content-item span, #ProjectManager .project-content .project-content-item h4 {
   margin: 20px 0;
 }
 
@@ -783,4 +783,19 @@ body {
   border: 15px solid #9acd32;
   position: relative;
   z-index: 3;
+}
+#ProjectManager .project-content {
+  position: relative;
+  z-index: 3;
+  top: 20px;
+  color: white;
+}
+#ProjectManager .project-content .project-content-item h4 {
+  font-size: 3rem;
+}
+#ProjectManager .project-content .project-content-item span {
+  font-size: 1.5rem;
+}
+#ProjectManager .project-content .project-content-item p {
+  font-size: 1rem;
 }/*# sourceMappingURL=main.min.css.map */
