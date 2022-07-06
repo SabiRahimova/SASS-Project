@@ -51,9 +51,10 @@
             }
 
             p{
-                font-size: 1rem;
+                font-size: 0.9rem;
                 @extend .my-20;
                 font-style: italic;
+                line-height: 1.4;
             }
 
             ul{

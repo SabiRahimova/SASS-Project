@@ -797,8 +797,9 @@ body {
   font-size: 1.5rem;
 }
 #ProjectManager .project-content .project-content-item p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-style: italic;
+  line-height: 1.4;
 }
 #ProjectManager .project-content .project-content-item ul i {
   border-radius: 50%;
