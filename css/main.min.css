@@ -579,7 +579,7 @@ a {
   width: calc((100%/12)*7);
 }
 
-.col-8 {
+.col-8, #About .info-head {
   width: calc((100%/12)*8);
 }
 
@@ -595,7 +595,7 @@ a {
   width: calc((100%/12)*11);
 }
 
-.col-12, #About .info-head {
+.col-12 {
   width: calc((100%/12)*12);
 }
 
@@ -686,7 +686,7 @@ body {
 }
 #About .info-head span {
   border-bottom: 1px solid rgb(145, 145, 145);
-  width: 30%;
+  width: 40%;
 }
 #About .info-head i {
   font-size: larger;
@@ -776,18 +776,18 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 40px;
 }
 #ProjectManager .project-img img {
   border-radius: 50%;
   border: 15px solid #9acd32;
   position: relative;
   z-index: 3;
+  top: 100px;
 }
 #ProjectManager .project-content {
   position: relative;
   z-index: 3;
-  top: 20px;
+  top: 100px;
   color: white;
 }
 #ProjectManager .project-content .project-content-item h4 {
@@ -798,4 +798,19 @@ body {
 }
 #ProjectManager .project-content .project-content-item p {
   font-size: 1rem;
+  font-style: italic;
+}
+#ProjectManager .project-content .project-content-item ul i {
+  border-radius: 50%;
+  border: 4px solid #9acd32;
+  font-size: 40px;
+  padding: 10px;
+}
+#ProjectManager .project-content .project-content-item ul i:hover {
+  background-color: #9acd32;
+  color: white;
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
 }/*# sourceMappingURL=main.min.css.map */
