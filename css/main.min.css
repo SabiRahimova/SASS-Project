@@ -797,9 +797,12 @@ body {
   font-size: 1.5rem;
 }
 #ProjectManager .project-content .project-content-item p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-style: italic;
-  line-height: 1.4;
+  line-height: 1.3;
+}
+#ProjectManager .project-content .project-content-item .px-20, #ProjectManager .project-content .project-content-item #About .info-head i, #About .info-head #ProjectManager .project-content .project-content-item i, #ProjectManager .project-content .project-content-item #About .info-content .info-link span:nth-child(2), #About .info-content .info-link #ProjectManager .project-content .project-content-item span:nth-child(2), #ProjectManager .project-content .project-content-item .project-content {
+  border-left: 4px solid #9acd32;
 }
 #ProjectManager .project-content .project-content-item ul i {
   border-radius: 50%;

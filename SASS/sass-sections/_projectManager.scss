@@ -51,11 +51,17 @@
             }
 
             p{
-                font-size: 0.9rem;
+                font-size: 1rem;
                 @extend .my-20;
                 font-style: italic;
-                line-height: 1.4;
+                line-height: 1.3;
             }
+
+            .px-20{
+                border-left: 4px solid $main-green;
+            }
+
+            
 
             ul{
                 i{
@@ -74,6 +80,8 @@
                     
                 }
             }
+
+            
 
         }
     }
