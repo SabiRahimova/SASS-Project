@@ -608,6 +608,9 @@ body {
   border: 1px solid red;
   background-image: url(/images/cover-rotating-words.jpg);
   height: 100vh;
+  width: 100vw;
+  -webkit-clip-path: polygon(100% 0%, 0% 0%, 0% 98%, 100% 75%);
+          clip-path: polygon(100% 0%, 0% 0%, 0% 98%, 100% 75%);
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
@@ -755,6 +758,8 @@ body {
 #ProjectManager {
   background-image: url(/images/projectmanager-bg.jpg);
   height: 100vh;
+  -webkit-clip-path: polygon(100% 5%, 0% 0%, 0% 90%, 100% 100%);
+          clip-path: polygon(100% 5%, 0% 0%, 0% 90%, 100% 100%);
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
