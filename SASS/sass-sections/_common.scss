@@ -1,0 +1,40 @@
+
+    .info-head{
+        
+    @extend .col-8;
+    @extend .pt-40;
+    @extend .flex;
+    @extend .align-center;
+    @extend .flex--justify-center;
+    @extend .flex-column;
+
+    h3{
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: white;
+    }
+
+    p{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    span{
+        border-bottom: 1px solid rgb(145, 145, 145);
+        width: 40%;
+    }
+
+    i{
+        font-size: x-large;
+        @extend .pt-15;
+        @extend .px-20;
+    }
+
+    .info-hr{
+        justify-content: center;
+        width: inherit;
+    }
+
+} 

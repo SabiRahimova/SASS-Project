@@ -1,0 +1,14 @@
+#Services{
+    border: 1px solid red;
+    height: 500px;
+    .service-content{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        gap: 20px;
+    }
+
+    .service-content-item{
+     border: 1px solid red;
+    }
+}

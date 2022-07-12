@@ -16,7 +16,7 @@ a {
   color: white;
 }
 
-.flex, #About .info-content .info-link, #About .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.flex, .info-head, #About .info-content .info-link, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@ a {
           align-items: flex-end;
 }
 
-.align-center, #About .info-content .info-link, #About .info-head, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.align-center, .info-head, #About .info-content .info-link, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -64,7 +64,7 @@ a {
           justify-content: flex-end;
 }
 
-.flex--justify-center, #About .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.flex--justify-center, .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -87,7 +87,7 @@ a {
           justify-content: space-evenly;
 }
 
-.flex-column, #About .info-head {
+.flex-column, .info-head {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -106,7 +106,7 @@ a {
   padding: 15px;
 }
 
-.p-20, #About .info {
+.p-20 {
   padding: 20px;
 }
 
@@ -138,7 +138,7 @@ a {
   padding: 0 15px;
 }
 
-.px-20, #ProjectManager .project-content, #About .info-content .info-link span:nth-child(2), #About .info-head i {
+.px-20, .info-head i, #ProjectManager .project-content, #About .info-content .info-link span:nth-child(2) {
   padding: 0 20px;
 }
 
@@ -198,7 +198,7 @@ a {
   padding-top: 10px;
 }
 
-.pt-15, #About .info-head i {
+.pt-15, .info-head i {
   padding-top: 15px;
 }
 
@@ -218,7 +218,7 @@ a {
   padding-top: 35px;
 }
 
-.pt-40, #About .info-head {
+.pt-40, .info-head {
   padding-top: 40px;
 }
 
@@ -579,7 +579,7 @@ a {
   width: calc((100%/12)*7);
 }
 
-.col-8, #About .info-head {
+.col-8, .info-head {
   width: calc((100%/12)*8);
 }
 
@@ -688,32 +688,6 @@ body {
   opacity: 0;
 }
 
-#About .info {
-  margin: 0px auto;
-}
-#About .info-head h3 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  color: white;
-}
-#About .info-head p {
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-#About .info-head span {
-  border-bottom: 1px solid rgb(145, 145, 145);
-  width: 40%;
-}
-#About .info-head i {
-  font-size: larger;
-}
-#About .info-head .info-hr {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: inherit;
-}
 #About .info-content {
   color: white;
 }
@@ -821,7 +795,7 @@ body {
   font-style: italic;
   line-height: 1.3;
 }
-#ProjectManager .project-content .project-content-item .px-20, #ProjectManager .project-content .project-content-item #About .info-head i, #About .info-head #ProjectManager .project-content .project-content-item i, #ProjectManager .project-content .project-content-item #About .info-content .info-link span:nth-child(2), #About .info-content .info-link #ProjectManager .project-content .project-content-item span:nth-child(2), #ProjectManager .project-content .project-content-item .project-content {
+#ProjectManager .project-content .project-content-item .px-20, #ProjectManager .project-content .project-content-item .info-head i, .info-head #ProjectManager .project-content .project-content-item i, #ProjectManager .project-content .project-content-item #About .info-content .info-link span:nth-child(2), #About .info-content .info-link #ProjectManager .project-content .project-content-item span:nth-child(2), #ProjectManager .project-content .project-content-item .project-content {
   border-left: 4px solid #9acd32;
 }
 #ProjectManager .project-content .project-content-item ul i {
@@ -837,4 +811,42 @@ body {
           transform: rotateY(360deg);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+}
+
+.info-head h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+}
+.info-head p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.info-head span {
+  border-bottom: 1px solid rgb(145, 145, 145);
+  width: 40%;
+}
+.info-head i {
+  font-size: x-large;
+}
+.info-head .info-hr {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: inherit;
+}
+
+#Services {
+  border: 1px solid red;
+  height: 500px;
+}
+#Services .service-content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 20px;
+}
+#Services .service-content-item {
+  border: 1px solid red;
 }/*# sourceMappingURL=main.min.css.map */
