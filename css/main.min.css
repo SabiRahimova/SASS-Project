@@ -837,25 +837,18 @@ body {
   width: inherit;
 }
 
-#Services {
-  border: 1px solid red;
-  height: 500px;
-}
 #Services .service-content {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  grid-template-rows: 230px 348px;
+  grid-template-rows: 230px 230px;
   gap: 20px;
   padding: 40px;
 }
 #Services .service-content-flip-card {
-  border: 1px solid red;
   border-radius: 7px;
   -webkit-box-shadow: 2px;
           box-shadow: 2px;
-}
-#Services .service-content-flip-card {
   position: relative;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -867,7 +860,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 7px;
-  background-color: white;
+  background-color: black;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -941,7 +934,7 @@ body {
   position: relative;
   top: 30%;
   font-size: 1rem;
-  color: #9acd32;
+  color: white;
   padding: 40px;
 }
 #Services .flip-card-back .inner p {
@@ -949,8 +942,8 @@ body {
   top: 40%;
   padding: 0 40px;
   font-size: 0.8rem;
-  color: #666;
-  line-height: 1.5;
+  color: rgb(194, 194, 194);
+  line-height: 1.7;
   text-align: start;
 }
 #Services .service-content-flip-card:hover .flip-card-front {
