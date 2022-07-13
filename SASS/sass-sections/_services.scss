@@ -5,10 +5,84 @@
         margin-top: 50px;
         display: grid;
         grid-template-columns: repeat(3, 2fr);
+        grid-template-rows: 230px 348px;
         gap: 20px;
     }
 
     .service-content-item{
      border: 1px solid red;
     }
+
+    .service-content-flip-card{
+        position: relative;
+        transform-style: preserve-3d;
+        perspective: 750px;
+    }
+
+    .flip-card-front,
+    .flip-card-back{
+        width: 100%;
+        height: 100%;
+        
+        background-color: white;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    }
+
+    .flip-card-front{
+        transform: rotateY(0deg);
+
+    }
+
+    .flip-card-back{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: rotateY(180deg);
+
+    }
+
+    .flip-card-back .inner,
+    .flip-card-front .inner{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        position: absolute;
+        top: 30%;
+        z-index: 2;
+    }
+
+    .inner .i::before{
+        width: 250px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0.2;
+    }
+
+    .service-content-flip-card:hover .flip-card-front{
+        transform: rotateY(-180deg);
+
+    }
+
+    .service-content-flip-card:hover .flip-card-back{
+        transform: rotateY(0deg);
+
+    }
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
 }
