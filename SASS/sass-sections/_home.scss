@@ -9,6 +9,7 @@ body{
     height: 100vh;
     clip-path: polygon(100% 0%, 0% 0%, 0% 98%, 100% 75% );
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
