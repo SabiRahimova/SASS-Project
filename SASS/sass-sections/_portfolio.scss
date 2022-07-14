@@ -1,0 +1,25 @@
+#Portfolio{
+
+
+    .portfolio-menu{
+        ul{
+            display: flex;
+            color: white;
+            justify-content: center;
+            margin: 50px 0;
+            li{
+                font-size: 1rem;
+                padding: 10px 20px;
+                margin: 0px 10px;
+                border: 2px solid $main-green;
+                border-radius: 50px;
+                font-weight: 600;
+
+            }
+
+            li:hover{
+                background-color: $main-green;
+            }
+        }
+    }
+}
