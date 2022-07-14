@@ -800,19 +800,24 @@ body {
 #ProjectManager .project-content .project-content-item .px-20, #ProjectManager .project-content .project-content-item .info-head i, .info-head #ProjectManager .project-content .project-content-item i, #ProjectManager .project-content .project-content-item #About .info-content .info-link span:nth-child(2), #About .info-content .info-link #ProjectManager .project-content .project-content-item span:nth-child(2), #ProjectManager .project-content .project-content-item .project-content {
   border-left: 4px solid #9acd32;
 }
-#ProjectManager .project-content .project-content-item ul i {
+#ProjectManager .project-content .project-content-item .project-content-detail a {
   border-radius: 50%;
   border: 4px solid #9acd32;
-  font-size: 40px;
-  padding: 10px;
+  font-size: 35px;
+  padding: 15px;
 }
-#ProjectManager .project-content .project-content-item ul i:hover {
-  background-color: #9acd32;
+#ProjectManager .project-content .project-content-item .project-content-detail a i {
+  color: #9acd32;
+}
+#ProjectManager .project-content .project-content-item .project-content-detail a i:hover {
   color: white;
   -webkit-transform: rotateY(360deg);
           transform: rotateY(360deg);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+#ProjectManager .project-content .project-content-item .project-content-detail a i:hover a {
+  background-color: #9acd32;
 }
 
 .info-head h3 {
