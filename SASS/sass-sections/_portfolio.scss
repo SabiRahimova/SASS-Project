@@ -27,10 +27,44 @@
         display: grid;
         grid-template-columns: repeat(3, 3fr);
         grid-template-rows: 340px 340px 340px;     
-        gap: 20px;
+        gap: 40px;
+        @extend .px-10;
 
         .portfolio-content-item{
-            border: 1px solid red;
+            
+            
+            .portfolio-content-detail{
+                width: 100%;
+                height: 73%;
+                img{
+
+                
+                width: 100%;
+                height: 100%;
+                
+                background-size: cover;  
+                background-repeat: no-repeat;
+                background-position: center center;
+                border-radius: 7px;
+                }
+            }
+
+            .portfolio-content-base{
+                color: white;
+                h3{
+                    border-left: 4px solid $main-green;
+                    @extend .my-15;
+                    font-size: 1rem;
+                }
+
+                p{
+                    font-size: 0.9rem;
+                    font-weight: 300;
+                    @extend .pr-40;
+                }
+
+
+            }
         }
 
 
