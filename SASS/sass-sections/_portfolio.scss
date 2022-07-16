@@ -22,4 +22,20 @@
             }
         }
     }
+
+    .portfolio-content{
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        grid-template-rows: 340px 340px 340px;     
+        gap: 20px;
+
+        .portfolio-content-item{
+            border: 1px solid red;
+        }
+
+
+    }
+
+
+
 }

@@ -28,13 +28,15 @@
 
     i{
         font-size: x-large;
-        @extend .pt-15;
+       
         @extend .px-20;
     }
 
     .info-hr{
         justify-content: center;
         width: inherit;
+        align-items: center;
+        @extend .pt-15;
     }
 
 } 

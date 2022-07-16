@@ -198,7 +198,7 @@ a {
   padding-top: 10px;
 }
 
-.pt-15, .info-head i {
+.pt-15, .info-head .info-hr {
   padding-top: 15px;
 }
 
@@ -842,6 +842,9 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #Services .service-content {
@@ -1064,4 +1067,13 @@ body {
 }
 #Portfolio .portfolio-menu ul li:hover {
   background-color: #9acd32;
+}
+#Portfolio .portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: 340px 340px 340px;
+  gap: 20px;
+}
+#Portfolio .portfolio-content .portfolio-content-item {
+  border: 1px solid red;
 }/*# sourceMappingURL=main.min.css.map */
