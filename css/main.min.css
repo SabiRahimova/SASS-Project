@@ -1011,6 +1011,10 @@ body {
 #Testimonials .testimonial-content h1 {
   font-size: 3.5rem;
 }
+#Testimonials .testimonial-content .head-green {
+  color: #9acd32;
+  font-size: 3.5rem;
+}
 #Testimonials .testimonial-content span {
   font-size: 1.2rem;
 }
