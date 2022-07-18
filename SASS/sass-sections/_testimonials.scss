@@ -4,8 +4,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
-    height: 100vh;
-    
+    height: 100vh;    
     clip-path: polygon(100% 0%, 0% 10%, 0% 100%, 100% 90%);
     margin-top: 50px;
     &::after{
@@ -30,9 +29,7 @@
         @extend .mt-40;
         h1 {
             font-size: 3.5rem;
-            @extend .mb-15;
-
-            
+            @extend .mb-15;           
         }
         .head-green{
             color: $main-green;
@@ -40,7 +37,6 @@
         }
         span{
             font-size: 1.2rem;
-
         }
     }
 
@@ -55,7 +51,6 @@
             background: #f9f9f9;
             border-radius: 50%;
             @extend .my-30;
-
         }
 
         p{

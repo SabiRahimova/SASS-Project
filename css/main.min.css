@@ -16,7 +16,7 @@ a {
   color: white;
 }
 
-.flex, #Fact .fact-content .fact-content-item, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.flex, #Team .team-content .team-content-item .team-member .team-member-info, #Fact .fact-content .fact-content-item, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@ a {
           align-items: flex-end;
 }
 
-.align-center, #Fact .fact-content .fact-content-item, #Fact .fact-content, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.align-center, #Team .team-content .team-content-item .team-member .team-member-info, #Fact .fact-content .fact-content-item, #Fact .fact-content, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -64,7 +64,7 @@ a {
           justify-content: flex-end;
 }
 
-.flex--justify-center, #Fact .fact-content .fact-content-item, #Fact .fact-content, #Fact .fact-head, .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.flex--justify-center, #Team .team-content .team-content-item .team-member .team-member-info, #Fact .fact-content .fact-content-item, #Fact .fact-content, #Fact .fact-head, .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1191,4 +1191,49 @@ body {
 #Fact .fact-content .fact-content-item p {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+#Team .team-content {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  grid-template-rows: 430px;
+  gap: 40px;
+  margin-top: 40px;
+}
+#Team .team-content .team-content-item {
+  border: 1px solid red;
+}
+#Team .team-content .team-content-item .team-member {
+  width: 100%;
+  height: 80%;
+}
+#Team .team-content .team-content-item .team-member a {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+#Team .team-content .team-content-item .team-member a img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+#Team .team-content .team-content-item .team-member .team-member-info {
+  background-color: #151515;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  font-size: 1rem;
+  border-top: 5px solid #9acd32;
+}
+#Team .team-content .team-content-item .team-member .team-member-info p {
+  font-size: 1rem;
+  font-style: italic;
 }/*# sourceMappingURL=main.min.css.map */
