@@ -11,7 +11,7 @@
 
             .team-member{
                 width: 100%;
-                height: 80%;
+                height: 73%;
                 a{
                     background-size: cover;
                     background-attachment: fixed;
@@ -38,17 +38,29 @@
                     flex-direction: column;
                     @extend .align-center;
                     color: white;
-                    font-size: 1rem;
+                    
                     border-top: 5px solid $main-green;
+
+                    h4{
+                        font-size: 1.3rem;
+                        font-weight: 600;
+                    }
 
                     p{
                         font-size: 1rem;
                         font-style: italic;
+                        @extend .mb-20;
                     }
                     
                 }
                 
             }
         }
+
+        .team-content-item:hover .team-member-info{
+            background-color: $main-green;
+            transition: .5s;
+        }
+
     }
 }
