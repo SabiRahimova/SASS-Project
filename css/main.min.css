@@ -434,7 +434,7 @@ a {
   margin-top: 25px;
 }
 
-.mt-30 {
+.mt-30, #newsLetter .newsLetter-item {
   margin-top: 30px;
 }
 
@@ -1296,7 +1296,8 @@ body {
   height: 100vh;
   -webkit-clip-path: polygon(100% 0%, 0% 10%, 0% 100%, 100% 90%);
           clip-path: polygon(100% 0%, 0% 10%, 0% 100%, 100% 90%);
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-top: 50px;
 }
 #newsLetter::after {
   content: "";
@@ -1306,4 +1307,38 @@ body {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.6);
+}
+#newsLetter .newsLetter-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 4;
+  color: white;
+}
+#newsLetter .newsLetter-head h2 {
+  margin-bottom: 5px;
+  font-size: 3.5rem;
+}
+#newsLetter .newsLetter-head p {
+  font-size: 1.3rem;
+}
+#newsLetter .newsLetter-item {
+  position: relative;
+  z-index: 4;
+}
+#newsLetter .newsLetter-item p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: white;
 }/*# sourceMappingURL=main.min.css.map */
