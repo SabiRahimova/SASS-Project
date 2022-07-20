@@ -16,7 +16,7 @@ a {
   color: white;
 }
 
-.flex, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.flex, #Blog .blog-content .blog-content-item .post-date, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@ a {
           align-items: flex-end;
 }
 
-.align-center, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-content, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.align-center, #Blog .blog-content .blog-content-item .post-date, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-content, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -542,8 +542,8 @@ a {
   margin-left: 40px;
 }
 
-.m-auto {
-  margin: 0px auto;
+.m-auto-40 {
+  margin: 40px auto;
 }
 
 .container {
@@ -692,6 +692,48 @@ body {
   color: white;
   opacity: 0;
 }
+#Home .common-button {
+  padding: 10px 50px;
+  border-radius: 30px;
+  background-color: #9acd32;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  z-index: 5;
+}
+#Home .common-button::before {
+  content: "\f063";
+  position: absolute;
+  font: 1rem FontAwesome;
+  right: 18%;
+  opacity: 0;
+}
+#Home .common-button span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+  right: 0;
+}
+#Home .common-button:hover::before {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+  right: 8%;
+}
+#Home .common-button:hover.common-button span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  right: 10%;
+}
 
 #About .info-content {
   color: white;
@@ -746,6 +788,48 @@ body {
   top: 25px;
   right: 25px;
   border-radius: 5px;
+}
+#About .common-button {
+  padding: 10px 50px;
+  border-radius: 30px;
+  background-color: #9acd32;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  z-index: 5;
+}
+#About .common-button::before {
+  content: "\f03e";
+  position: absolute;
+  font: 1rem FontAwesome;
+  right: 18%;
+  opacity: 0;
+}
+#About .common-button span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+  right: 0;
+}
+#About .common-button:hover::before {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+  right: 8%;
+}
+#About .common-button:hover.common-button span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  right: 10%;
 }
 
 #ProjectManager {
@@ -856,51 +940,6 @@ h3 .head-green {
   color: #9acd32;
   font-size: 3.5rem;
   border: none;
-}
-
-.common-button {
-  padding: 10px 50px;
-  border-radius: 30px;
-  background-color: #9acd32;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  font-weight: 600;
-  z-index: 5;
-}
-.common-button::before {
-  content: "\f0e0";
-  position: absolute;
-  font: 1rem FontAwesome;
-  right: 18%;
-  opacity: 0;
-}
-.common-button span {
-  font-size: 1.2rem;
-  font-weight: 500;
-  position: relative;
-  right: 0;
-}
-
-.common-button:hover::before {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  opacity: 1;
-  right: 8%;
-}
-
-.common-button:hover.common-button span {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  right: 10%;
 }
 
 #Services .service-content {
@@ -1453,6 +1492,7 @@ h3 .head-green {
   font-size: 1.2rem;
   position: relative;
   right: 0;
+  font-weight: 500;
 }
 #newsLetter .newsLetter-item form .common-button:hover::before {
   -webkit-transition: 0.3s;
@@ -1474,7 +1514,6 @@ h3 .head-green {
   margin-top: 40px;
 }
 #Blog .blog-content .blog-content-item {
-  border: 1px solid red;
   width: 100%;
   height: auto;
   position: relative;
@@ -1504,6 +1543,23 @@ h3 .head-green {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+#Blog .blog-content .blog-content-item .post-date {
+  color: white;
+  background-color: #9acd32;
+  position: absolute;
+  top: 10%;
+  right: 7%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 5px;
+  font-size: 1rem;
+  border-radius: 7px;
+}
+#Blog .blog-content .blog-content-item .post-date span {
+  margin: 5px 0px;
+}
 #Blog .blog-content .blog-content-item .blog-content-info {
   color: white;
 }
@@ -1516,4 +1572,46 @@ h3 .head-green {
 }
 #Blog .blog-content .blog-content-item .blog-content-info p {
   font-size: 0.9rem;
+}
+#Blog .common-button {
+  padding: 10px 50px;
+  border-radius: 30px;
+  background-color: #9acd32;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  z-index: 5;
+}
+#Blog .common-button::before {
+  content: "\f044";
+  position: absolute;
+  font: 1rem FontAwesome;
+  right: 18%;
+  opacity: 0;
+}
+#Blog .common-button span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+  right: 0;
+}
+#Blog .common-button:hover::before {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+  right: 8%;
+}
+#Blog .common-button:hover.common-button span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  right: 10%;
 }/*# sourceMappingURL=main.min.css.map */
