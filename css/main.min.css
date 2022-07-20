@@ -542,6 +542,10 @@ a {
   margin-left: 40px;
 }
 
+.m-auto {
+  margin: 0px auto;
+}
+
 .container {
   width: 1300px;
   margin: 0px auto;
@@ -857,6 +861,12 @@ body {
   border-radius: 30px;
   background-color: #9acd32;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   border: none;
   cursor: pointer;
@@ -1420,6 +1430,15 @@ body {
   position: relative;
   font-weight: 600;
   z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #newsLetter .newsLetter-item form .common-button::before {
   content: "\f0e0";

@@ -98,6 +98,9 @@
                 position: relative;                
                 font-weight: 600;
                 z-index: 5;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 &::before{                   
                     content: "\f0e0";                   
                     position: absolute;
