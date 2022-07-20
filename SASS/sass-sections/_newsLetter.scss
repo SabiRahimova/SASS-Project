@@ -41,7 +41,9 @@
     .newsLetter-item{
         position: relative;
         z-index: 4;
-        @extend .mt-30;
+        
+        margin: 40px auto;
+        margin-bottom: 0;
 
         
         p{
@@ -53,6 +55,33 @@
         color: white;
 
         }
+
+        .input-container {
+            
+            display: flex;
+            width: 100%;
+            margin-bottom: 15px;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+          
+        .icon {
+            padding: 10px;
+            background: $main-green;
+            color: white;
+            min-width: 50px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+          
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            font-size: 1.2rem;
+        }
+          
+        
     }
 
 

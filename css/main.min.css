@@ -434,7 +434,7 @@ a {
   margin-top: 25px;
 }
 
-.mt-30, #newsLetter .newsLetter-item {
+.mt-30 {
   margin-top: 30px;
 }
 
@@ -1333,6 +1333,8 @@ body {
 #newsLetter .newsLetter-item {
   position: relative;
   z-index: 4;
+  margin: 40px auto;
+  margin-bottom: 0;
 }
 #newsLetter .newsLetter-item p {
   text-align: center;
@@ -1341,4 +1343,27 @@ body {
   font-weight: 400;
   margin-bottom: 15px;
   color: white;
+}
+#newsLetter .newsLetter-item .input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+#newsLetter .newsLetter-item .icon {
+  padding: 10px;
+  background: #9acd32;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#newsLetter .newsLetter-item .input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=main.min.css.map */
