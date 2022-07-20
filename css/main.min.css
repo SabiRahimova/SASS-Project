@@ -442,7 +442,7 @@ a {
   margin-top: 35px;
 }
 
-.mt-40, #Fact, #Testimonials .testimonial-content {
+.mt-40, #newsLetter .newsLetter-head, #Fact, #Testimonials .testimonial-content {
   margin-top: 40px;
 }
 
@@ -850,6 +850,45 @@ body {
 .head-green {
   color: #9acd32;
   font-size: 3.5rem;
+}
+
+.common-button {
+  padding: 10px 50px;
+  border-radius: 30px;
+  background-color: #9acd32;
+  text-align: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  z-index: 5;
+}
+.common-button::before {
+  content: "\f0e0";
+  position: absolute;
+  font: 1rem FontAwesome;
+  right: 18%;
+  opacity: 0;
+}
+.common-button span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+  right: 0;
+}
+
+.common-button:hover::before {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+  right: 8%;
+}
+
+.common-button:hover.common-button span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  right: 10%;
 }
 
 #Services .service-content {
@@ -1323,9 +1362,12 @@ body {
   z-index: 4;
   color: white;
 }
-#newsLetter .newsLetter-head h2 {
+#newsLetter .newsLetter-head h1 {
   margin-bottom: 5px;
   font-size: 3.5rem;
+}
+#newsLetter .newsLetter-head h1 span {
+  font-size: 4.5rem;
 }
 #newsLetter .newsLetter-head p {
   font-size: 1.3rem;
@@ -1344,7 +1386,10 @@ body {
   margin-bottom: 15px;
   color: white;
 }
-#newsLetter .newsLetter-item .input-container {
+#newsLetter .newsLetter-item form {
+  text-align: center;
+}
+#newsLetter .newsLetter-item form .input-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1353,7 +1398,7 @@ body {
   border-radius: 50px;
   overflow: hidden;
 }
-#newsLetter .newsLetter-item .icon {
+#newsLetter .newsLetter-item form i {
   padding: 10px;
   background: #9acd32;
   color: white;
@@ -1361,9 +1406,44 @@ body {
   text-align: center;
   font-size: 1.5rem;
 }
-#newsLetter .newsLetter-item .input-field {
+#newsLetter .newsLetter-item form .input-field {
   width: 100%;
   padding: 10px;
   outline: none;
   font-size: 1.2rem;
+}
+#newsLetter .newsLetter-item form .common-button {
+  padding: 10px 50px;
+  border-radius: 30px;
+  background-color: #9acd32;
+  text-align: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  z-index: 5;
+}
+#newsLetter .newsLetter-item form .common-button::before {
+  content: "\f0e0";
+  position: absolute;
+  font: 1rem FontAwesome;
+  right: 18%;
+  opacity: 0;
+}
+#newsLetter .newsLetter-item form .common-button span {
+  font-size: 1.2rem;
+  position: relative;
+  right: 0;
+}
+#newsLetter .newsLetter-item form .common-button:hover::before {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+  right: 8%;
+}
+#newsLetter .newsLetter-item form .common-button:hover.common-button span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  right: 10%;
 }/*# sourceMappingURL=main.min.css.map */

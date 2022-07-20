@@ -27,10 +27,15 @@
         position: relative;
         z-index: 4;
         color: white;
+        @extend .mt-40;
 
-        h2{
+        h1{
             margin-bottom: 5px;
             font-size: 3.5rem;
+
+            span{
+                font-size: 4.5rem;
+            }
         }
 
         p{
@@ -56,29 +61,78 @@
 
         }
 
-        .input-container {
-            
-            display: flex;
-            width: 100%;
-            margin-bottom: 15px;
-            border-radius: 50px;
-            overflow: hidden;
-        }
-          
-        .icon {
-            padding: 10px;
-            background: $main-green;
-            color: white;
-            min-width: 50px;
+        form{
             text-align: center;
-            font-size: 1.5rem;
-        }
-          
-        .input-field {
-            width: 100%;
-            padding: 10px;
-            outline: none;
-            font-size: 1.2rem;
+
+            .input-container {
+                
+                display: flex;
+                width: 100%;
+                margin-bottom: 15px;
+                border-radius: 50px;
+                overflow: hidden;
+            }
+            
+            i {
+                padding: 10px;
+                background: $main-green;
+                color: white;
+                min-width: 50px;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            
+            .input-field {
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                font-size: 1.2rem;
+            }
+
+            .common-button{
+                padding: 10px 50px;
+                border-radius: 30px;               
+                background-color: $main-green;
+                text-align: center;
+                color: white;
+                border: none;
+                cursor: pointer;
+                position: relative;                
+                font-weight: 600;
+                z-index: 5;
+                &::before{                   
+                    content: "\f0e0";                   
+                    position: absolute;
+                    font: 1rem FontAwesome;
+                    right: 18%;                    
+                    opacity: 0;
+                }
+
+                span{
+                    font-size: 1.2rem;
+                    position: relative;
+                    right: 0;
+                }               
+                
+            }
+
+            .common-button:hover::before{
+                transition: .3s;
+                opacity: 1;
+                right: 8%;
+            }
+
+            .common-button:hover.common-button span{
+                transition: .3s;
+                right: 10%;
+            }
+
+
+            
+
+            
+
+           
         }
           
         
