@@ -840,6 +840,7 @@ body {
 }
 .info-head i {
   font-size: x-large;
+  color: white;
 }
 .info-head .info-hr {
   -webkit-box-pack: center;
@@ -851,9 +852,10 @@ body {
           align-items: center;
 }
 
-.head-green {
+h3 .head-green {
   color: #9acd32;
   font-size: 3.5rem;
+  border: none;
 }
 
 .common-button {
@@ -1462,4 +1464,56 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   right: 10%;
+}
+
+#Blog .blog-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 360px;
+  gap: 40px;
+  margin-top: 40px;
+}
+#Blog .blog-content .blog-content-item {
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#Blog .blog-content .blog-content-item a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-transition: all 4s ease-in-out;
+  transition: all 4s ease-in-out;
+}
+#Blog .blog-content .blog-content-item a img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 7px;
+}
+#Blog .blog-content .blog-content-item a:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+#Blog .blog-content .blog-content-item .blog-content-info {
+  color: white;
+}
+#Blog .blog-content .blog-content-item .blog-content-info h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+#Blog .blog-content .blog-content-item .blog-content-info h2:hover {
+  color: #9acd32;
+}
+#Blog .blog-content .blog-content-item .blog-content-info p {
+  font-size: 0.9rem;
 }/*# sourceMappingURL=main.min.css.map */

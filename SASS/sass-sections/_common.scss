@@ -1,5 +1,5 @@
 
-    .info-head{
+.info-head{
         
     @extend .col-9;
     @extend .pt-40;
@@ -28,7 +28,7 @@
 
     i{
         font-size: x-large;
-       
+        color: white;
         @extend .px-20;
     }
 
@@ -41,9 +41,12 @@
 
 } 
 
-.head-green{
-    color: $main-green;
-    font-size: 3.5rem;
+h3{ 
+    .head-green{
+        color: $main-green;
+        font-size: 3.5rem;
+        border: none;
+    }
 }
 
 .common-button{
