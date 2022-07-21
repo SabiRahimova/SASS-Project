@@ -1,0 +1,42 @@
+#ContactBase{
+    background-image: url(/images/contactform-bg.jpg);
+    height: 100vh;  
+    background-size: cover; 
+    clip-path: polygon(100% 5%, 0% 0%, 0% 90%, 100% 100%);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: 100px;
+    &::after{
+        content: '';
+        @extend .pt-30;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(0,0,0,0.6);
+
+    }
+
+    .section-header{
+        position: relative;
+        z-index: 5;
+        color: white;
+        margin-top: 50px;      
+        text-align: center;
+
+        h3{
+            font-size: 3.5rem;
+        }
+
+        p{
+            font-size: 1.1rem;
+        }
+
+        
+    }
+
+
+}
