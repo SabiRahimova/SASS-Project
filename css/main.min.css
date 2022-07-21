@@ -16,7 +16,7 @@ a {
   color: white;
 }
 
-.flex, #Blog .blog-content .blog-content-item .post-date, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.flex, #Contact .contact-content i, #Blog .blog-content .blog-content-item .post-date, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@ a {
           align-items: flex-end;
 }
 
-.align-center, #Blog .blog-content .blog-content-item .post-date, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-content, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.align-center, #Contact .contact-content i, #Blog .blog-content .blog-content-item .post-date, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-content, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -64,7 +64,7 @@ a {
           justify-content: flex-end;
 }
 
-.flex--justify-center, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-content, #Fact .fact-head, .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.flex--justify-center, #Contact .contact-content i, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-content, #Fact .fact-head, .info-head, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -158,11 +158,11 @@ a {
   padding: 0 40px;
 }
 
-.py-5 {
+.py-5, #Contact .contact-content .contact-content-item p {
   padding: 5px 0;
 }
 
-.py-10 {
+.py-10, #Contact .contact-content .contact-content-item h2 {
   padding: 10px 0;
 }
 
@@ -544,6 +544,14 @@ a {
 
 .m-auto-40 {
   margin: 40px auto;
+}
+
+.br-7 {
+  border-radius: 7px;
+}
+
+.back-black {
+  background-color: black;
 }
 
 .container {
@@ -1681,4 +1689,33 @@ h3 .head-green {
 #Blog-video .video-item .video-item-detail a:hover {
   background-color: #9acd32;
   color: white;
+}
+
+#Contact {
+  position: relative;
+}
+#Contact .contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  left: 10%;
+}
+#Contact .contact-content .contact-content-item {
+  padding: 0px 20px;
+}
+#Contact .contact-content .contact-content-item h2 {
+  font-size: 1.3rem;
+  border-bottom: 1px solid gray;
+  color: white;
+}
+#Contact .contact-content .contact-content-item p {
+  font-size: 0.8rem;
+  color: gray;
+}
+#Contact .contact-content i {
+  font-size: 4rem;
+  color: #9acd32;
 }/*# sourceMappingURL=main.min.css.map */
