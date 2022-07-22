@@ -16,7 +16,7 @@ a {
   color: white;
 }
 
-.flex, #Contact .contact-content i, #Blog .blog-content .blog-content-item .post-date, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
+.flex, #Logo ul, #ContactBase .input-container, #ContactBase .row form, #Contact .contact-content i, #Blog .blog-content .blog-content-item .post-date, #Team .team-content .team-content-item .team-member .team-member-info, #Team .team-content .team-content-item .team-member .team-member-social a, #Fact .fact-content .fact-content-item, #Fact .fact-head, .info-head, #About .info-content .info-link, #Home .home-content a, #Home .home-content p, #Home .home-content .main-button, #Home .home-content, #Home .header-navbar ul, .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,7 +210,7 @@ a {
   padding: 45px 0;
 }
 
-.py-50 {
+.py-50, #Logo {
   padding: 50px 0;
 }
 
@@ -434,7 +434,7 @@ a {
   margin: 0 25px;
 }
 
-.mx-30 {
+.mx-30, #Logo ul li {
   margin: 0 30px;
 }
 
@@ -514,7 +514,7 @@ a {
   margin-top: 25px;
 }
 
-.mt-30 {
+.mt-30, #ContactBase .row form {
   margin-top: 30px;
 }
 
@@ -797,7 +797,7 @@ a {
   width: calc((100%/12)*1);
 }
 
-.col-2 {
+.col-2, #ContactBase .input-container i {
   width: calc((100%/12)*2);
 }
 
@@ -829,7 +829,7 @@ a {
   width: calc((100%/12)*9);
 }
 
-.col-10 {
+.col-10, #ContactBase .input-container input {
   width: calc((100%/12)*10);
 }
 
@@ -848,53 +848,51 @@ a {
   #About .about-base {
     display: block;
   }
-  #ProjectManager {
-    width: 35rem;
+  #About .info-content-right {
+    margin: 40px 0px;
   }
   #ProjectManager .row {
-    display: block;
+    display: block !important;
   }
   #Services .service-content {
     display: grid;
     grid-template-columns: 1fr !important;
     grid-template-rows: 230px 230px 230px 230px 230px 230px !important;
+    padding: 0px !important;
   }
-  #Services .service-content .service-content-flip-card {
+  #Testimonials, #Portfolio, #Services, #Fact, #Team, #newsLetter, #Blog, #About, #Blog-video, #Contact, #ContactBase, #ProjectManager {
     width: 34rem;
   }
-  #Testimonials, #Portfolio, #Services, #Fact, #Team, #newsLetter, #Blog, #About, #Blog-video, #Contact, #ContactBase {
-    width: 34rem;
-  }
-  #Testimonials .info-head h3, #Portfolio .info-head h3, #Services .info-head h3, #Fact .info-head h3, #Team .info-head h3, #newsLetter .info-head h3, #Blog .info-head h3, #About .info-head h3, #Blog-video .info-head h3, #Contact .info-head h3, #ContactBase .info-head h3 {
+  #Testimonials .info-head h3, #Portfolio .info-head h3, #Services .info-head h3, #Fact .info-head h3, #Team .info-head h3, #newsLetter .info-head h3, #Blog .info-head h3, #About .info-head h3, #Blog-video .info-head h3, #Contact .info-head h3, #ContactBase .info-head h3, #ProjectManager .info-head h3 {
     text-align: center;
   }
-  #Testimonials .portfolio-content, #Portfolio .portfolio-content, #Services .portfolio-content, #Fact .portfolio-content, #Team .portfolio-content, #newsLetter .portfolio-content, #Blog .portfolio-content, #About .portfolio-content, #Blog-video .portfolio-content, #Contact .portfolio-content, #ContactBase .portfolio-content {
+  #Testimonials .portfolio-content, #Portfolio .portfolio-content, #Services .portfolio-content, #Fact .portfolio-content, #Team .portfolio-content, #newsLetter .portfolio-content, #Blog .portfolio-content, #About .portfolio-content, #Blog-video .portfolio-content, #Contact .portfolio-content, #ContactBase .portfolio-content, #ProjectManager .portfolio-content {
     grid-template-columns: 1fr !important;
     grid-template-rows: 340px !important;
   }
-  #Testimonials .fact-content-item i, #Portfolio .fact-content-item i, #Services .fact-content-item i, #Fact .fact-content-item i, #Team .fact-content-item i, #newsLetter .fact-content-item i, #Blog .fact-content-item i, #About .fact-content-item i, #Blog-video .fact-content-item i, #Contact .fact-content-item i, #ContactBase .fact-content-item i {
+  #Testimonials .fact-content-item i, #Portfolio .fact-content-item i, #Services .fact-content-item i, #Fact .fact-content-item i, #Team .fact-content-item i, #newsLetter .fact-content-item i, #Blog .fact-content-item i, #About .fact-content-item i, #Blog-video .fact-content-item i, #Contact .fact-content-item i, #ContactBase .fact-content-item i, #ProjectManager .fact-content-item i {
     font-size: 3rem !important;
   }
-  #Testimonials .fact-content-item h2, #Portfolio .fact-content-item h2, #Services .fact-content-item h2, #Fact .fact-content-item h2, #Team .fact-content-item h2, #newsLetter .fact-content-item h2, #Blog .fact-content-item h2, #About .fact-content-item h2, #Blog-video .fact-content-item h2, #Contact .fact-content-item h2, #ContactBase .fact-content-item h2 {
+  #Testimonials .fact-content-item h2, #Portfolio .fact-content-item h2, #Services .fact-content-item h2, #Fact .fact-content-item h2, #Team .fact-content-item h2, #newsLetter .fact-content-item h2, #Blog .fact-content-item h2, #About .fact-content-item h2, #Blog-video .fact-content-item h2, #Contact .fact-content-item h2, #ContactBase .fact-content-item h2, #ProjectManager .fact-content-item h2 {
     font-size: 3rem !important;
   }
-  #Testimonials .fact-content-item p, #Portfolio .fact-content-item p, #Services .fact-content-item p, #Fact .fact-content-item p, #Team .fact-content-item p, #newsLetter .fact-content-item p, #Blog .fact-content-item p, #About .fact-content-item p, #Blog-video .fact-content-item p, #Contact .fact-content-item p, #ContactBase .fact-content-item p {
+  #Testimonials .fact-content-item p, #Portfolio .fact-content-item p, #Services .fact-content-item p, #Fact .fact-content-item p, #Team .fact-content-item p, #newsLetter .fact-content-item p, #Blog .fact-content-item p, #About .fact-content-item p, #Blog-video .fact-content-item p, #Contact .fact-content-item p, #ContactBase .fact-content-item p, #ProjectManager .fact-content-item p {
     font-size: 1rem !important;
   }
-  #Testimonials .portfolio-content-base p, #Portfolio .portfolio-content-base p, #Services .portfolio-content-base p, #Fact .portfolio-content-base p, #Team .portfolio-content-base p, #newsLetter .portfolio-content-base p, #Blog .portfolio-content-base p, #About .portfolio-content-base p, #Blog-video .portfolio-content-base p, #Contact .portfolio-content-base p, #ContactBase .portfolio-content-base p {
+  #Testimonials .portfolio-content-base p, #Portfolio .portfolio-content-base p, #Services .portfolio-content-base p, #Fact .portfolio-content-base p, #Team .portfolio-content-base p, #newsLetter .portfolio-content-base p, #Blog .portfolio-content-base p, #About .portfolio-content-base p, #Blog-video .portfolio-content-base p, #Contact .portfolio-content-base p, #ContactBase .portfolio-content-base p, #ProjectManager .portfolio-content-base p {
     font-size: 1.1rem !important;
   }
-  #Testimonials .team-content, #Portfolio .team-content, #Services .team-content, #Fact .team-content, #Team .team-content, #newsLetter .team-content, #Blog .team-content, #About .team-content, #Blog-video .team-content, #Contact .team-content, #ContactBase .team-content {
+  #Testimonials .team-content, #Portfolio .team-content, #Services .team-content, #Fact .team-content, #Team .team-content, #newsLetter .team-content, #Blog .team-content, #About .team-content, #Blog-video .team-content, #Contact .team-content, #ContactBase .team-content, #ProjectManager .team-content {
     grid-template-columns: 1fr !important;
   }
-  #Testimonials .blog-content, #Portfolio .blog-content, #Services .blog-content, #Fact .blog-content, #Team .blog-content, #newsLetter .blog-content, #Blog .blog-content, #About .blog-content, #Blog-video .blog-content, #Contact .blog-content, #ContactBase .blog-content {
+  #Testimonials .blog-content, #Portfolio .blog-content, #Services .blog-content, #Fact .blog-content, #Team .blog-content, #newsLetter .blog-content, #Blog .blog-content, #About .blog-content, #Blog-video .blog-content, #Contact .blog-content, #ContactBase .blog-content, #ProjectManager .blog-content {
     grid-template-columns: 1fr !important;
   }
-  #Testimonials .contact-content, #Portfolio .contact-content, #Services .contact-content, #Fact .contact-content, #Team .contact-content, #newsLetter .contact-content, #Blog .contact-content, #About .contact-content, #Blog-video .contact-content, #Contact .contact-content, #ContactBase .contact-content {
+  #Testimonials .contact-content, #Portfolio .contact-content, #Services .contact-content, #Fact .contact-content, #Team .contact-content, #newsLetter .contact-content, #Blog .contact-content, #About .contact-content, #Blog-video .contact-content, #Contact .contact-content, #ContactBase .contact-content, #ProjectManager .contact-content {
     display: block !important;
     position: static !important;
   }
-  #Testimonials .contact-content .contact-content-detail, #Portfolio .contact-content .contact-content-detail, #Services .contact-content .contact-content-detail, #Fact .contact-content .contact-content-detail, #Team .contact-content .contact-content-detail, #newsLetter .contact-content .contact-content-detail, #Blog .contact-content .contact-content-detail, #About .contact-content .contact-content-detail, #Blog-video .contact-content .contact-content-detail, #Contact .contact-content .contact-content-detail, #ContactBase .contact-content .contact-content-detail {
+  #Testimonials .contact-content .contact-content-detail, #Portfolio .contact-content .contact-content-detail, #Services .contact-content .contact-content-detail, #Fact .contact-content .contact-content-detail, #Team .contact-content .contact-content-detail, #newsLetter .contact-content .contact-content-detail, #Blog .contact-content .contact-content-detail, #About .contact-content .contact-content-detail, #Blog-video .contact-content .contact-content-detail, #Contact .contact-content .contact-content-detail, #ContactBase .contact-content .contact-content-detail, #ProjectManager .contact-content .contact-content-detail {
     margin: 10px 0px !important;
   }
 }
@@ -2052,6 +2050,70 @@ h3 .head-green {
   left: 0;
   background: rgba(0, 0, 0, 0.6);
 }
+#ContactBase .row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#ContactBase .row form {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  z-index: 5;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#ContactBase .row textarea {
+  margin: 20px 0px;
+  color: #aaa;
+  border-radius: 30px;
+  padding: 50px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#ContactBase .row .common-button {
+  padding: 10px 50px;
+  border-radius: 30px;
+  background-color: #9acd32;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  z-index: 5;
+}
+#ContactBase .row .common-button::before {
+  content: "\f1d8";
+  position: absolute;
+  font: 1rem FontAwesome;
+  right: 18%;
+  opacity: 0;
+}
+#ContactBase .row .common-button span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+  right: 0;
+}
+#ContactBase .row .common-button:hover::before {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+  right: 8%;
+}
+#ContactBase .row .common-button:hover.common-button span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  right: 10%;
+}
 #ContactBase .section-header {
   position: relative;
   z-index: 5;
@@ -2064,4 +2126,26 @@ h3 .head-green {
 }
 #ContactBase .section-header p {
   font-size: 1.1rem;
+}
+#ContactBase .input-container i {
+  font-size: 1.5rem;
+  background: #9acd32;
+  height: inherit;
+  border-radius: 30px 0px 0px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#ContactBase .input-container input {
+  padding: 15px 0px 15px 10px;
+  border-radius: 0px 30px 30px 0px;
+  border: none;
+  font-size: 0.9rem;
+  color: #aaa;
 }/*# sourceMappingURL=main.min.css.map */
