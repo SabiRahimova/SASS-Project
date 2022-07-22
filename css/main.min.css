@@ -1181,26 +1181,60 @@ body {
   line-height: 1.3;
 }
 #ProjectManager .project-content .project-content-item .px-20, #ProjectManager .project-content .project-content-item #Portfolio .portfolio-content, #Portfolio #ProjectManager .project-content .project-content-item .portfolio-content, #ProjectManager .project-content .project-content-item .info-head i, .info-head #ProjectManager .project-content .project-content-item i, #ProjectManager .project-content .project-content-item #About .info-content .info-link span:nth-child(2), #About .info-content .info-link #ProjectManager .project-content .project-content-item span:nth-child(2), #ProjectManager .project-content .project-content-item .project-content {
-  border-left: 4px solid #9acd32;
+  border-left: 5px solid #9acd32;
 }
-#ProjectManager .project-content .project-content-item .project-content-detail a {
-  border-radius: 50%;
-  border: 4px solid #9acd32;
-  font-size: 35px;
-  padding: 15px;
-}
-#ProjectManager .project-content .project-content-item .project-content-detail a i {
-  color: #9acd32;
-}
-#ProjectManager .project-content .project-content-item .project-content-detail a i:hover {
+#ProjectManager .project-content .project-content-item a {
+  padding: 30px;
+  border-radius: 40px;
+  border: 2px solid #9acd32;
+  text-align: center;
   color: white;
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#ProjectManager .project-content .project-content-item a::before {
+  content: "\f099";
+  position: absolute;
+  font: 1.5rem FontAwesome;
+  right: 30%;
+}
+#ProjectManager .project-content .project-content-item a:hover::before {
   -webkit-transform: rotateY(360deg);
           transform: rotateY(360deg);
   -webkit-transition-duration: 0.7s;
           transition-duration: 0.7s;
 }
-#ProjectManager .project-content .project-content-item .project-content-detail a i:hover a {
+#ProjectManager .project-content .project-content-item a:hover {
   background-color: #9acd32;
+}
+#ProjectManager .project-content .project-content-item .facebook::before {
+  content: "\f09a";
+}
+#ProjectManager .project-content .project-content-item .skype::before {
+  content: "\f17e";
+}
+#ProjectManager .project-content .project-content-item .youtube::before {
+  content: "\f167";
+}
+#ProjectManager .project-content .project-content-item .linkedin::before {
+  content: "\f09a";
+}
+#ProjectManager .project-content .project-content-item .github::before {
+  content: "\f0d5";
+}
+#ProjectManager .project-content .project-content-item .instagram::before {
+  content: "\f16d";
 }
 
 .info-head h3 {
@@ -1594,6 +1628,7 @@ h3 .head-green {
 }
 #Fact .fact-content .fact-content-item h2 {
   font-size: 4rem;
+  color: #9acd32;
 }
 #Fact .fact-content .fact-content-item p {
   font-size: 1.5rem;
@@ -2148,4 +2183,77 @@ h3 .head-green {
   border: none;
   font-size: 0.9rem;
   color: #aaa;
+}
+
+#Footer {
+  padding: 80px 0px;
+  background-color: black;
+  -webkit-clip-path: polygon(100% 0%, 0% 10%, 0% 100%, 100% 100%);
+          clip-path: polygon(100% 0%, 0% 10%, 0% 100%, 100% 100%);
+}
+#Footer .footer-head {
+  color: white;
+  text-align: center;
+}
+#Footer .footer-head h2 {
+  font-size: 1rem;
+}
+#Footer .footer-head p {
+  font-size: 0.9rem;
+}
+#Footer .footer-head ul li {
+  margin: 40px 15px;
+}
+#Footer .footer-head ul li a {
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px solid #9acd32;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#Footer .footer-head ul li a::before {
+  content: "\f099";
+  position: absolute;
+  font: 1.5rem FontAwesome;
+  right: 20%;
+}
+#Footer .footer-head ul li a:hover::before {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+#Footer .footer-head ul li a:hover {
+  background-color: #9acd32;
+}
+#Footer .footer-head ul li .facebook::before {
+  content: "\f09a";
+}
+#Footer .footer-head ul li .skype::before {
+  content: "\f17e";
+}
+#Footer .footer-head ul li .youtube::before {
+  content: "\f167";
+}
+#Footer .footer-head ul li .linkedin::before {
+  content: "\f09a";
+}
+#Footer .footer-head ul li .github::before {
+  content: "\f0d5";
+}
+#Footer .footer-head ul li .instagram::before {
+  content: "\f16d";
 }/*# sourceMappingURL=main.min.css.map */
