@@ -1,4 +1,4 @@
-#Footer{
+#footer{
     padding: 80px 0px;
     background-color: black;
     clip-path: polygon(100% 0%, 0% 10%, 0% 100%, 100% 100%);
@@ -6,11 +6,11 @@
         color: white;
         text-align: center;
         h2{
-            font-size: 1rem;
+            @extend .normal-font;
         }
 
         p{
-            font-size: .9rem;
+            @extend .small-font;
         }
         ul{
 
@@ -24,15 +24,15 @@
                     text-align: center;
                     color: white;                    
                     cursor: pointer;
-                    position: relative;                
-                    font-weight: 600;
+                    @extend .p-relative;                
+                    @extend .fw-600;
                     z-index: 5;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                    @extend .flex;
+                    @extend .align-center;
+                    @extend .flex--justify-center;
                     &::before{                   
                         content: "\f099";                   
-                        position: absolute;
+                        @extend .p-absolute;
                         font: 1.5rem FontAwesome;
                         right: 20%;                    
                         

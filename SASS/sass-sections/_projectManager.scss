@@ -1,10 +1,11 @@
-#ProjectManager {
+#projectManager {
     background-image: url(/images/projectmanager-bg.jpg);
     height: 100vh;
     background-attachment: fixed;
     clip-path: polygon(100% 5%, 0% 0%, 0% 90%, 100% 100%);
     background-size: cover;
     background-repeat: no-repeat;
+    object-fit: cover;
     background-position: center center;
     position: relative;
     margin-top: 50px;

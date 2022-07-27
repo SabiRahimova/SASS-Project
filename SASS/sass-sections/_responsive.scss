@@ -4,7 +4,14 @@
         width:100%;
     }
 
-    #Home{
+    #home{
+        label{
+            opacity: 1 !important;
+        }
+        .row{
+            justify-content: space-around;
+        }
+
         .header-navbar{
             ul{
                 position: fixed;
@@ -56,10 +63,8 @@
         }
     }
 
-
-
-
-    #About{
+    #about{
+        
         .about-base{
             display: block;
         }
@@ -71,14 +76,14 @@
 
     }
 
-    #ProjectManager{
+    #projectManager{
         
         .row{
             display: block !important;
         }
     }
 
-    #Services{
+    #services{
         .service-content{
             display: grid;
             grid-template-columns: 1fr !important;
@@ -88,8 +93,7 @@
             
         }
     }
-
-    
+   
 
     .info-head{
         h3{
@@ -143,7 +147,7 @@
         }
     }
 
-    #Logo{
+    #logo{
         ul {
             display: block;
 
@@ -153,7 +157,7 @@
         }
     }
 
-    #Footer{
+    #footer{
         .footer-head{
 
             h2{
@@ -172,12 +176,19 @@
             }
         }
     }
-
     
 }
 
 @media (min-width:$breakpoint-sm) and (max-width:$breakpoint-md) {
-    #Home{
+    #home{
+
+        label{
+            opacity: 1 !important;
+        }
+
+        .row{
+            justify-content: space-around;
+        }
         .header-navbar{
             ul{
                 position: fixed;
@@ -229,10 +240,11 @@
         }
     }
 
+    #about{
 
-
-
-    #About{
+        .container{
+            padding: 0px 50px !important;
+        }
         .about-base{
             display: block;
         }
@@ -244,21 +256,21 @@
 
     }
 
-    #ProjectManager{
+    #projectManager{
         
         .row{
             display: block !important;
         }
     }
 
-    #Services{
+    #services{
 
         .container{
             padding: 0px 50px !important;
         }
         .service-content{
             display: grid;
-            grid-template-columns: repeat(2, 3fr) !important;
+            grid-template-columns: repeat(1, 3fr) !important;
             grid-template-rows: 230px 230px 230px 230px 230px 230px !important;
             padding: 0px !important;
 
@@ -266,15 +278,13 @@
         }
     }
 
-    
-
     .info-head{
         h3{
                 text-align: center;
         }
     }
 
-    #Portfolio{
+    #portfolio{
         .container{
             padding: 0px 50px;
         }
@@ -287,12 +297,16 @@
             padding: 0px !important;
 
             p{
-                font-size:.8rem !important;
+                font-size:.7rem !important;
             }
 
             h3{
                 font-size:1rem !important;
             }
+        }
+
+        .portfolio-content-item{
+            margin: 15px 5px;
         }
 
     }
@@ -310,17 +324,13 @@
             font-size:1rem !important;
         }
     }
-    .portfolio-content-base{
-        p{
-            font-size: 1.1rem !important;
-        }
-    }
+    
 
     .team-content{
         grid-template-columns:  repeat(2, 2fr) !important;
     }
 
-    #Blog{
+    #blog{
         .container{
             padding: 0px 50px !important;
         }
@@ -335,7 +345,6 @@
         }
     }
 
-   
 
     .contact-content{
         display: flex !important;
@@ -347,7 +356,7 @@
         }
     }
 
-    #Logo{
+    #logo{
         ul {
             display: flex;
 
@@ -357,7 +366,7 @@
         }
     }
 
-    #Footer{
+    #footer{
         .footer-head{
 
             h2{
@@ -382,7 +391,6 @@
             }
         }
     }
-
 
 }
 

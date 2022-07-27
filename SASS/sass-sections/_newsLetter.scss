@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     object-fit: cover;
-    position: relative;
+    @extend .p-relative;
     height: 100vh;    
     clip-path: polygon(100% 0%, 0% 10%, 0% 100%, 100% 90%);
     margin-top: 50px;
@@ -19,52 +19,46 @@
         background: rgb(0,0,0,0.6);
     }
 
-    .newsLetter-head{
-        
-        display: flex;
+    .newsLetter-head{       
+        @extend .flex;
         flex-direction: column;
-        align-items: center;
-        position: relative;
+        @extend .align-center;
+        @extend .p-relative;
         z-index: 4;
         color: white;
         @extend .mt-40;
 
         h1{
             margin-bottom: 5px;
-            font-size: 3.5rem;
-
-            
+            font-size: 3.5rem;           
         }
 
         p{
-            font-size: 1.3rem;
+            @extend .large-font;
         }
     }
 
     .newsLetter-item{
-        position: relative;
-        z-index: 4;
-        
+        @extend .p-relative;
+        z-index: 4;       
         margin: 40px auto;
         margin-bottom: 0;
 
-        
         p{
-        text-align: center;
-        font-size: 1rem;
-        line-height: 1.8;
-        font-weight: 400;
-        margin-bottom: 15px;
-        color: white;
+            text-align: center;
+            @extend .normal-font;
+            line-height: 1.8;
+            font-weight: 400;
+            margin-bottom: 15px;
+            color: white;
 
         }
 
         form{
             text-align: center;
 
-            .input-container {
-                
-                display: flex;
+            .input-container {               
+                @extend .flex;
                 width: 100%;
                 margin-bottom: 15px;
                 border-radius: 50px;
@@ -95,15 +89,15 @@
                 color: white;
                 border: none;
                 cursor: pointer;
-                position: relative;                
+                @extend .p-relative;
                 font-weight: 600;
                 z-index: 5;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                @extend .flex;
+                @extend .align-center;
+                @extend .flex--justify-center;
                 &::before{                   
                     content: "\f0e0";                   
-                    position: absolute;
+                    @extend .p-absolute;
                     font: 1rem FontAwesome;
                     right: 18%;                    
                     opacity: 0;
@@ -111,9 +105,9 @@
 
                 span{
                     font-size: 1.2rem;
-                    position: relative;
+                    @extend .p-relative;
                     right: 0;
-                    font-weight: 500;
+                    @extend .fw-500;
                 }               
                 
             }
@@ -128,18 +122,9 @@
                 transition: .3s;
                 right: 10%;
             }
-
-
-            
-
-            
-
-           
-        }
           
+        }         
         
     }
-
-
 
 }

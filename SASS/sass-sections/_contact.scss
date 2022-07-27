@@ -1,23 +1,21 @@
-#Contact{
-    position: relative;
+#contact{
+    @extend .p-relative;
     .contact-content{
-        display: flex;
-        position: absolute;
+        @extend .flex;
+        @extend .p-absolute;
         bottom:10%;
         right:10%;
         left:10%;
 
         .contact-content-detail{
             margin: 10px 20px;
-
         }
         
-        .contact-content-item{
-            
-            padding: 0px 20px;
+        .contact-content-item{           
+            @extend .px-20;
 
             h2{
-                font-size: 1.3rem;
+                @extend .large-font;
                 border-bottom: 1px solid gray;
                 @extend .py-10; 
                 color: white;
@@ -36,8 +34,6 @@
             @extend .align-center;
             font-size: 4rem;
             color: $main-green;
-            
-
         }
 
     }

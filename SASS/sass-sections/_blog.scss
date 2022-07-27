@@ -1,4 +1,4 @@
-#Blog{
+#blog{
     .blog-content{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -10,8 +10,8 @@
             
             width: 100%;
             height: auto;
-            position: relative;
-            padding: 10px;
+            @extend .p-relative;
+            @extend .p-10;
             box-sizing: border-box;
             a{                                      
                 width: 100%;
@@ -28,8 +28,7 @@
                     background-repeat: no-repeat;
                     background-position: center center;
                     object-fit: cover;
-                    border-radius: 7px;
-                    
+                    border-radius: 7px;                   
                 }
 
             }
@@ -41,13 +40,13 @@
             .post-date{
                 color: white;
                 background-color: $main-green;
-                position: absolute;
+                @extend .p-absolute;
                 top: 10%;
                 right: 7%;
                 @extend .flex;
                 flex-direction: column;
                 padding: 0px 5px;
-                font-size: 1rem;              
+                @extend .normal-font;              
                 @extend .align-center;
                 border-radius: 7px;
 
@@ -60,7 +59,7 @@
                 color: white;
 
                 h2{
-                    font-size: 1.3rem;
+                    @extend .large-font;
                     font-weight: 500;
                 }
 
@@ -69,31 +68,30 @@
                 }
 
                 p{
-                    font-size: 0.9rem;
+                    @extend .small-font;
                 }
             }
 
         }
 
     }
-
-    
+   
     .common-button{
         padding: 10px 50px;
         border-radius: 30px;               
         background-color: $main-green;
         text-align: center;
-        display: flex;
-        align-items: center;
+        @extend .flex;
+        @extend .align-center;
         color: white;
         border: none;
         cursor: pointer;
-        position: relative;                
-        font-weight: 600;
+        @extend .p-relative;         
+        @extend .fw-600;
         z-index: 5;
         &::before{                   
             content: "\f044";                   
-            position: absolute;
+            @extend .p-absolute;
             font: 1rem FontAwesome;
             right: 18%;                    
             opacity: 0;
@@ -102,26 +100,23 @@
         span{
             font-size: 1.2rem;
             font-weight: 500;
-            position: relative;
+            @extend .p-relative;
             right: 0;
         }  
         
     }
         
 
-
     .common-button:hover::before{
         transition: .3s;
         opacity: 1;
         right: 8%;
-        }
+    }
 
     .common-button:hover.common-button span{
         transition: .3s;
         right: 10%;
     }
-
-    
 
 
 }

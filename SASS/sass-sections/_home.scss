@@ -3,7 +3,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-#Home{
+#home{
     
     background-image: url(/images/cover-rotating-words.jpg);
     height: 100vh;   
@@ -13,7 +13,7 @@ body{
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: center center;
-    position: relative;
+    @extend .p-relative;
     &::after{
         content: '';
         width: 100%;
@@ -23,39 +23,32 @@ body{
         left: 0;
         background: rgba(0,0,0,0.6);
 
-    }
+    }   
 
-    
-
-    .header-logo{
-        
-        position: relative;
+    .header-logo{        
+        @extend .p-relative;
         z-index: 3;
         padding-left: 15px;
     }
 
     .header-navbar{
-        position: relative;
+        @extend .p-relative;
         z-index: 3;
-        display: flex;
-        justify-content: end;
-
+        @extend .flex;
+        @extend .flex--justify-end;
         #check{
             display: none;
         }
     
-        label{
-            
+        label{            
             font-size: 1.5rem !important;
             color: white !important;
-            display: flex;
-            align-items: center;
+            @extend .flex;
+            @extend .align-center;
             cursor: pointer;
-            
+            opacity: 0;           
         }
-
         
-
         ul li :hover{
             color: $main-green;
         }
@@ -63,48 +56,41 @@ body{
             @extend .flex;
             @extend .align-center;
             @extend .flex--justify-center;
-            text-transform: uppercase;
-
-            
+            text-transform: uppercase;           
 
             li{
                 @extend .p-15;
                 font-size: 0.8rem;
-                font-weight: bold;
-                
+                font-weight: bold;               
             }
 
             i{
                 margin-right: 5px;
-            }
-
-            
+            }          
 
         }
-
        
     }
 
     .home-content{
         @extend .flex;
-            @extend .align-center;
-            @extend .flex--justify-center;
+        @extend .align-center;
+        @extend .flex--justify-center;
+        height: 350px;
+        flex-direction: column;
 
         .main-button{
             @extend .flex;
             @extend .align-center;
             @extend .flex--justify-center;
-
         }
-      
-        height: 350px;
-        flex-direction: column;
+             
         p{
             @extend .flex;
             @extend .align-center;
             @extend .flex--justify-center;
             @extend .p-40;
-            position: relative;
+            @extend .p-relative;
             z-index: 3;
             color: white;
             font-size: 3.5rem;
@@ -119,7 +105,7 @@ body{
         a{
             @extend .flex;
             @extend .flex--justify-center;
-            position: relative;
+            @extend .p-relative;;
             z-index: 3;
             color: white;
             background-color: $main-green;
@@ -130,18 +116,16 @@ body{
             text-transform: uppercase;
            
             i{
-                position: relative;
+                @extend .p-relative;
                 z-index: 3;
                 font-size: larger;
-                font-weight: 600;
+                @extend .fw-600;
                 color: white;
                 opacity: 0;
             }
-
             
         }
-
-        
+       
     }
 
     .common-button{
@@ -149,17 +133,17 @@ body{
         border-radius: 30px;               
         background-color: $main-green;
         text-align: center;
-        display: flex;
-        align-items: center;
+        @extend .flex;
+        @extend .align-center;
         color: white;
         border: none;
         cursor: pointer;
-        position: relative;                
-        font-weight: 600;
+        @extend .p-relative;                
+        @extend .fw-600;
         z-index: 5;
         &::before{                   
             content: "\f063";                   
-            position: absolute;
+            @extend .p-absolute;
             font: 1rem FontAwesome;
             right: 18%;                    
             opacity: 0;
@@ -167,8 +151,8 @@ body{
     
         span{
             font-size: 1.2rem;
-            font-weight: 500;
-            position: relative;
+            @extend .fw-500;
+            @extend .p-relative;
             right: 0;
         }               
         
@@ -184,8 +168,6 @@ body{
         transition: .3s;
         right: 10%;
     }
-    
-
-    
+       
 
 }
