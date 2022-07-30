@@ -1108,6 +1108,8 @@ body {
   position: relative;
   z-index: 3;
   top: 100px;
+  max-width: 100%;
+  height: auto;
 }
 #projectManager .project-content {
   position: relative;
@@ -1154,8 +1156,10 @@ body {
   position: absolute;
   font: 1.5rem FontAwesome;
   right: 30%;
+  color: #9acd32;
 }
 #projectManager .project-content .project-content-item a:hover::before {
+  color: white;
   -webkit-transform: rotateY(360deg);
           transform: rotateY(360deg);
   -webkit-transition-duration: 0.7s;
@@ -2057,12 +2061,14 @@ h3 .head-green {
   content: "\f099";
   font: 1.5rem FontAwesome;
   right: 20%;
+  color: #9acd32;
 }
 #footer .footer-head ul li a:hover::before {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  -webkit-transition-duration: 0.1s;
-          transition-duration: 0.1s;
+  color: white;
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
 }
 #footer .footer-head ul li a:hover {
   background-color: #9acd32;
@@ -2138,8 +2144,37 @@ h3 .head-green {
   #about .info-content-right {
     margin: 40px 0px;
   }
+  #projectManager {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 100px 0px;
+    height: auto;
+    -webkit-clip-path: polygon(100% 5%, 0% 0%, 0% 93%, 100% 100%);
+            clip-path: polygon(100% 5%, 0% 0%, 0% 93%, 100% 100%);
+  }
   #projectManager .row {
-    display: block !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+  }
+  #projectManager .row img {
+    top: 0px;
+  }
+  #projectManager .row .project-content {
+    top: 0px;
+  }
+  #projectManager .row ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #projectManager .row ul li {
+    margin: 0px 5px;
   }
   #services .service-content {
     display: grid;
@@ -2254,8 +2289,37 @@ h3 .head-green {
   #about .info-content-right {
     margin: 40px 0px;
   }
+  #projectManager {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 100px 0px;
+    height: auto;
+    -webkit-clip-path: polygon(100% 5%, 0% 0%, 0% 93%, 100% 100%);
+            clip-path: polygon(100% 5%, 0% 0%, 0% 93%, 100% 100%);
+  }
   #projectManager .row {
-    display: block !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+  }
+  #projectManager .row img {
+    top: 0px;
+  }
+  #projectManager .row .project-content {
+    top: 0px;
+  }
+  #projectManager .row ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #projectManager .row ul li {
+    margin: 0px 5px;
   }
   #services .container {
     padding: 0px 50px !important;
@@ -2340,6 +2404,119 @@ h3 .head-green {
     margin: 40px 5px !important;
   }
   #footer .footer-head ul li a::before {
-    font-size: 1.4rem !important;
+    font-size: 1.2rem !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  #home .row {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #about .container {
+    padding: 0px 50px !important;
+  }
+  #projectManager {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 100px 0px;
+    height: auto;
+    -webkit-clip-path: polygon(100% 5%, 0% 0%, 0% 93%, 100% 100%);
+            clip-path: polygon(100% 5%, 0% 0%, 0% 93%, 100% 100%);
+  }
+  #projectManager .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+  }
+  #projectManager .row img {
+    top: 0px;
+  }
+  #projectManager .row .project-content {
+    top: 0px;
+  }
+  #projectManager .row ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #projectManager .row ul li {
+    margin: 0px 5px;
+  }
+  #services .container {
+    padding: 0px 50px !important;
+  }
+  .info-head h3 {
+    text-align: center;
+  }
+  #portfolio .container {
+    padding: 0px 50px;
+  }
+  #portfolio .portfolio-content {
+    grid-template-columns: repeat(3, 3fr) !important;
+    grid-template-rows: 340px !important;
+    gap: 30px;
+    padding: 0px !important;
+  }
+  #portfolio .portfolio-content p {
+    font-size: 0.7rem !important;
+  }
+  #portfolio .portfolio-content h3 {
+    font-size: 1rem !important;
+  }
+  #portfolio .portfolio-content-item {
+    margin: 15px 5px;
+  }
+  .fact-content-item i {
+    font-size: 3rem !important;
+  }
+  .fact-content-item h2 {
+    font-size: 3rem !important;
+  }
+  .fact-content-item p {
+    font-size: 1rem !important;
+  }
+  .team-content {
+    padding: 0px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #blog .container {
+    padding: 0px 50px !important;
+  }
+  #blog .blog-content {
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: 360px !important;
+  }
+  #blog .blog-content .blog-content-item {
+    padding: 10px 0px !important;
+  }
+  #logo ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #logo ul li {
+    margin: 20px 10px;
+  }
+  #footer .footer-head h2 {
+    font-size: 0.9rem !important;
+  }
+  #footer .footer-head p {
+    font-size: 0.8rem !important;
+  }
+  #footer .footer-head ul {
+    margin: 10px 0px !important;
+  }
+  #footer .footer-head ul li {
+    margin: 40px 5px !important;
+  }
+  #footer .footer-head ul li a::before {
+    font-size: 1.2rem !important;
   }
 }/*# sourceMappingURL=main.min.css.map */

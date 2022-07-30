@@ -16,7 +16,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: rgb(0,0,0,0.6); 
+        background: rgba(0,0,0,0.6); 
     }
 
 
@@ -31,6 +31,9 @@
             position: relative;
             z-index: 3;
             top: 100px;
+            max-width: 100%;
+            height: auto;
+
 
         }
     }
@@ -83,12 +86,14 @@
                     content: "\f099";                   
                     position: absolute;
                     font: 1.5rem FontAwesome;
-                    right: 30%;                    
+                    right: 30%; 
+                    color: $main-green;                   
                     
                 }
             }
 
             a:hover::before{
+                color:white;
                 transform: rotateY(360deg);
                 transition-duration: 0.7s;
 

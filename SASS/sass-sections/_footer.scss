@@ -34,14 +34,17 @@
                         content: "\f099";                   
                         @extend .p-absolute;
                         font: 1.5rem FontAwesome;
-                        right: 20%;                    
+                        right: 20%;
+                        color: $main-green;                    
                         
                     }
                 }
 
                 a:hover::before{
-                    transform: rotateY(180deg);
-                    transition-duration: .1s;
+                    color: white;
+                    transform: rotateY(360deg);
+                    transition-duration: .7s;
+                    
 
                 }
 
