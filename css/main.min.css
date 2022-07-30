@@ -2472,15 +2472,6 @@ h3 .head-green {
   #portfolio .portfolio-content-item {
     margin: 15px 5px;
   }
-  .fact-content-item i {
-    font-size: 3rem !important;
-  }
-  .fact-content-item h2 {
-    font-size: 3rem !important;
-  }
-  .fact-content-item p {
-    font-size: 1rem !important;
-  }
   .team-content {
     padding: 0px 20px;
     -webkit-box-sizing: border-box;
