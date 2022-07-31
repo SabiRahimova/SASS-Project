@@ -90,8 +90,9 @@ body{
             @extend .align-center;
             @extend .flex--justify-center;
             @extend .p-40;
-            @extend .p-relative;
-            z-index: 3;
+            @extend .p-absolute;
+            top:40%;
+            z-index: 1;
             color: white;
             font-size: 3.5rem;
             font-weight: bolder;
@@ -138,9 +139,10 @@ body{
         color: white;
         border: none;
         cursor: pointer;
-        @extend .p-relative;                
+        @extend .p-absolute;                
         @extend .fw-600;
-        z-index: 5;
+        z-index: 1;
+        top:65%;
         &::before{                   
             content: "\f063";                   
             @extend .p-absolute;

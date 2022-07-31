@@ -12,6 +12,11 @@
             justify-content: space-around;
         }
 
+        .home-content{
+            p{
+                text-align:center;
+            }
+        }
         .header-navbar{
             ul{
                 position: fixed;
@@ -24,7 +29,6 @@
                 transition:all .5s;
                 z-index: 10;
                 width:100vw;
-
                 text-align: center;
                 display: block;
 
@@ -53,10 +57,8 @@
 
             #check:checked ~ ul{
                 left: 0;
-                p{
-                    z-index: 0;
-                }
-            }
+                
+            }  
 
            
 
@@ -114,6 +116,12 @@
             padding: 0px !important;
 
             
+        }
+    }
+
+    #testimonials{
+        h1{
+            text-align:center;
         }
     }
    
@@ -195,6 +203,8 @@
 
                 li{
                     margin: 40px 12px !important;
+
+                    
                 }
             }
         }
@@ -358,6 +368,13 @@
 
     }
 
+    #testimonials{
+        h1{
+            text-align:center;
+        }
+
+    }
+
     .fact-content-item{
         i{
             font-size: 3rem !important;
@@ -493,6 +510,13 @@
             padding: 0px 50px !important;
         }
         
+    }
+
+    #testimonials{
+        h1{
+            text-align:center;
+        }
+
     }
 
     .info-head{
