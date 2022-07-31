@@ -12,7 +12,7 @@
             .team-member{
                 width: 100%;
                 height: 73%;
-                position: relative;
+                @extend .p-relative;
                 a{                                      
                     width: 100%;
                     height: 100%;
@@ -21,8 +21,7 @@
                     img{
                         width: 100%;
                         height: 100%;
-                        background-size: cover;
-                    
+                        background-size: cover;                    
                         background-repeat: no-repeat;
                         background-position: center center;
                         object-fit: cover;
@@ -37,19 +36,18 @@
                 .team-member-social{
                     width: 100%;
                     height: 100%;
-                    position: absolute;
+                    @extend .p-absolute;
                     top: 0;
                     left: 0;
-                    right: 0;
-                    
+                    right: 0;                   
                     z-index: 5;
-                    display: flex;
+                    @extend .flex;
                     opacity: 0;
                     &::before{
                         content: '';
                         width: 100%;
                         height: 100%;
-                        position: absolute;
+                        @extend .p-absolute;
                         top: 0;
                         left: 0;
                         background: rgba(0,0,0,0.6);
@@ -64,7 +62,7 @@
 
                         i{
                             font-size: 2rem;
-                            position: relative;
+                            @extend .p-relative;
                             z-index: 5;
                             
                         }

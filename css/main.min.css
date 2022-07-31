@@ -16,7 +16,7 @@ a {
   color: white;
 }
 
-.flex, #footer .footer-head ul li a, #logo ul, #contactBase .input-container i, #contactBase .input-container, #contactBase .row .common-button, #contactBase .row form, #contact .contact-content i, #contact .contact-content, #blog .common-button, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-item form .input-container, #newsLetter .newsLetter-head, #team .team-content .team-content-item .team-member .team-member-info, #team .team-content .team-content-item .team-member .team-member-social a, #fact .fact-content .fact-content-item, #fact .fact-head, .info-head, #about .common-button, #about .info-content .info-link, #home .common-button, #home .home-content a, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, #home .header-navbar label, #home .header-navbar, .row {
+.flex, #footer .footer-head ul li a, #logo ul, #contactBase .input-container i, #contactBase .input-container, #contactBase .row .common-button, #contactBase .row form, #contact .contact-content i, #contact .contact-content, #blog .common-button, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-item form .input-container, #newsLetter .newsLetter-head, #team .team-content .team-content-item .team-member .team-member-info, #team .team-content .team-content-item .team-member .team-member-social a, #team .team-content .team-content-item .team-member .team-member-social, #fact .fact-content .fact-content-item, #fact .fact-head, #portfolio .portfolio-menu ul, #testimonials .testimonial-content-detail, #testimonials .testimonial-content, #services .flip-card-back .inner i, #services .flip-card-front .inner, .info-head, #projectManager .project-content .project-content-item a, #about .common-button, #about .info-content .info-link, #home .common-button, #home .home-content a, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, #home .header-navbar label, #home .header-navbar, .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@ a {
           align-items: flex-end;
 }
 
-.align-center, #footer .footer-head ul li a, #contactBase .input-container i, #contactBase .row .common-button, #contact .contact-content i, #blog .common-button, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-head, #team .team-content .team-content-item .team-member .team-member-info, #team .team-content .team-content-item .team-member .team-member-social a, #fact .fact-content .fact-content-item, #fact .fact-content, #fact .fact-head, .info-head, #about .common-button, #about .info-content .info-link, #home .common-button, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, #home .header-navbar label, .row {
+.align-center, #footer .footer-head ul li a, #contactBase .input-container i, #contactBase .row .common-button, #contact .contact-content i, #blog .common-button, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-head, #team .team-content .team-content-item .team-member .team-member-info, #team .team-content .team-content-item .team-member .team-member-social a, #fact .fact-content .fact-content-item, #fact .fact-content, #fact .fact-head, #testimonials .testimonial-content-detail, #testimonials .testimonial-content, #services .flip-card-front .inner, .info-head, #projectManager .project-content .project-content-item a, #about .common-button, #about .info-content .info-link, #home .common-button, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, #home .header-navbar label, .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -64,7 +64,7 @@ a {
           justify-content: flex-end;
 }
 
-.flex--justify-center, #footer .footer-head ul li a, #contactBase .input-container i, #contact .contact-content i, #newsLetter .newsLetter-item form .common-button, #team .team-content .team-content-item .team-member .team-member-info, #team .team-content .team-content-item .team-member .team-member-social a, #fact .fact-content .fact-content-item, #fact .fact-content, #fact .fact-head, .info-head, #home .home-content a, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, .row {
+.flex--justify-center, #footer .footer-head ul li a, #contactBase .input-container i, #contact .contact-content i, #newsLetter .newsLetter-item form .common-button, #team .team-content .team-content-item .team-member .team-member-info, #team .team-content .team-content-item .team-member .team-member-social a, #fact .fact-content .fact-content-item, #fact .fact-content, #fact .fact-head, #portfolio .portfolio-menu ul, #testimonials .testimonial-content-detail, #testimonials .testimonial-content, #services .flip-card-back .inner i, #services .flip-card-front .inner, .info-head, #projectManager .project-content .project-content-item a, #home .home-content a, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, .row {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -670,7 +670,7 @@ a {
   padding: 80px 0px;
 }
 
-.normal-font, #footer .footer-head h2, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item p, #about .info-content .main-button, #about .info-content .info-link span {
+.normal-font, #footer .footer-head h2, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item p, #portfolio .portfolio-menu ul li, #services .flip-card-back .inner span, #about .info-content .main-button, #about .info-content .info-link span {
   font-size: 1rem;
 }
 
@@ -678,7 +678,7 @@ a {
   font-size: 1.5rem;
 }
 
-.large-font, #contact .contact-content .contact-content-item h2, #blog .blog-content .blog-content-item .blog-content-info h2, #newsLetter .newsLetter-head p {
+.large-font, #contact .contact-content .contact-content-item h2, #blog .blog-content .blog-content-item .blog-content-info h2, #newsLetter .newsLetter-head p, #testimonials .testimonial-content-detail h5, #testimonials .testimonial-content-detail h6 {
   font-size: 1.3rem;
 }
 
@@ -686,19 +686,20 @@ a {
   font-size: 0.9rem;
 }
 
-.p-relative, #footer .footer-head ul li a, #contactBase .section-header, #contactBase .row .common-button span, #contactBase .row .common-button, #contactBase .row form, #contactBase, #contact, #blog-video .video-item .video-item-detail a, #blog-video .video-item, #blog-video .video-head, #blog-video, #blog .common-button span, #blog .common-button, #blog .blog-content .blog-content-item, #newsLetter .newsLetter-item form .common-button span, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-item, #newsLetter .newsLetter-head, #newsLetter, #fact .fact-content, #fact .fact-head, #fact, #about .common-button span, #about .common-button, #about .info-content-right img, #about .info-content-right, #home .common-button span, #home .home-content a i, #home .home-content a, #home .header-navbar, #home .header-logo, #home {
+.p-relative, #footer .footer-head ul li a, #contactBase .section-header, #contactBase .row .common-button span, #contactBase .row .common-button, #contactBase .row form, #contactBase, #contact, #blog-video .video-item .video-item-detail a, #blog-video .video-item, #blog-video .video-head, #blog-video, #blog .common-button span, #blog .common-button, #blog .blog-content .blog-content-item, #newsLetter .newsLetter-item form .common-button span, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-item, #newsLetter .newsLetter-head, #newsLetter, #team .team-content .team-content-item .team-member .team-member-social a i, #team .team-content .team-content-item .team-member, #fact .fact-content, #fact .fact-head, #fact, #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail, #testimonials .testimonial-content, #services .flip-card-back .inner p, #services .flip-card-back .inner span, #services .service-content-flip-card, #projectManager .project-content .project-content-item a, #projectManager .project-content, #projectManager .project-img img, #about .common-button span, #about .common-button, #about .info-content-right img, #about .info-content-right, #home .common-button span, #home .common-button, #home .home-content a i, #home .home-content a, #home .home-content, #home .header-navbar, #home .header-logo, #home {
   position: relative;
 }
 
-.p-absolute, #footer .footer-head ul li a::before, #contactBase .row .common-button::before, #contactBase::after, #contact .contact-content, #blog-video::after, #blog .common-button::before, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button::before, #fact::after, #about .common-button::before, #home .common-button::before, #home .common-button, #home .home-content p {
+.p-absolute, #footer .footer-head ul li a::before, #contactBase .row .common-button::before, #contactBase::after, #contact .contact-content, #blog-video::after, #blog .common-button::before, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button::before, #newsLetter::after, #team .team-content .team-content-item .team-member .team-member-social::before, #team .team-content .team-content-item .team-member .team-member-social, #fact::after, #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail i, #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail::after, #services .flip-card-back .inner,
+#services .flip-card-front .inner, #services .flip-card-back, #about .common-button::before, #home .common-button::before {
   position: absolute;
 }
 
-.fw-600, #footer .footer-head ul li a, #contactBase .row .common-button, #blog .common-button, #fact .fact-content .fact-content-item p, #about .common-button, #about .info-content .main-button, #home .common-button, #home .home-content a i {
+.fw-600, #footer .footer-head ul li a, #contactBase .row .common-button, #blog .common-button, #newsLetter .newsLetter-item form .common-button, #fact .fact-content .fact-content-item p, #projectManager .project-content .project-content-item a, #about .common-button, #about .info-content .main-button, #home .common-button, #home .home-content a i {
   font-weight: 600;
 }
 
-.fw-500, #contactBase .row .common-button span, #newsLetter .newsLetter-item form .common-button span, #about .common-button span, #home .common-button span {
+.fw-500, #contactBase .row .common-button span, #newsLetter .newsLetter-item form .common-button span, #testimonials .testimonial-content-detail h5, #testimonials .testimonial-content-detail h6, #about .common-button span, #home .common-button span {
   font-weight: 500;
 }
 
@@ -929,15 +930,13 @@ body {
   margin-right: 5px;
 }
 #home .home-content {
-  height: 350px;
+  z-index: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 #home .home-content p {
-  top: 40%;
-  z-index: 1;
   color: white;
   font-size: 3.5rem;
   font-weight: bolder;
@@ -970,7 +969,6 @@ body {
   border: none;
   cursor: pointer;
   z-index: 1;
-  top: 65%;
 }
 #home .common-button::before {
   content: "\f063";
@@ -1107,14 +1105,12 @@ body {
 #projectManager .project-img img {
   border-radius: 50%;
   border: 15px solid #9acd32;
-  position: relative;
   z-index: 3;
   top: 100px;
   max-width: 100%;
   height: auto;
 }
 #projectManager .project-content {
-  position: relative;
   z-index: 3;
   top: 100px;
   color: white;
@@ -1140,18 +1136,7 @@ body {
   text-align: center;
   color: white;
   cursor: pointer;
-  position: relative;
-  font-weight: 600;
   z-index: 5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 #projectManager .project-content .project-content-item a::before {
   content: "\f099";
@@ -1253,7 +1238,6 @@ h3 .head-green {
   border-radius: 7px;
   -webkit-box-shadow: 2px;
           box-shadow: 2px;
-  position: relative;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-perspective: 750px;
@@ -1279,7 +1263,6 @@ h3 .head-green {
           transform: rotateY(0deg);
 }
 #services .flip-card-back {
-  position: absolute;
   top: 0;
   left: 0;
   -webkit-transform: rotateY(180deg);
@@ -1290,19 +1273,9 @@ h3 .head-green {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  position: absolute;
   z-index: 2;
 }
 #services .flip-card-front .inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1322,12 +1295,6 @@ h3 .head-green {
   font-size: 250px;
   margin: 65px;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
   top: 0;
   right: 0;
   margin: -60px;
@@ -1335,14 +1302,11 @@ h3 .head-green {
   opacity: 0.2;
 }
 #services .flip-card-back .inner span {
-  position: relative;
   top: 30%;
-  font-size: 1rem;
   color: white;
   padding: 40px;
 }
 #services .flip-card-back .inner p {
-  position: relative;
   top: 40%;
   padding: 0 40px;
   font-size: 0.8rem;
@@ -1382,22 +1346,12 @@ h3 .head-green {
   background: rgba(0, 0, 0, 0.6);
 }
 #testimonials .testimonial-content {
-  position: relative;
   z-index: 3;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 #testimonials .testimonial-content h1 {
   font-size: 3.5rem;
@@ -1410,19 +1364,10 @@ h3 .head-green {
   font-size: 1.2rem;
 }
 #testimonials .testimonial-content-detail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 #testimonials .testimonial-content-detail img {
   border: 6px solid #f9f9f9;
@@ -1438,23 +1383,14 @@ h3 .head-green {
   color: #9acd32;
 }
 #testimonials .testimonial-content-detail h5, #testimonials .testimonial-content-detail h6 {
-  font-weight: 500;
-  font-size: 1.3rem;
   margin: 0px;
 }
 
 #portfolio .portfolio-menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   color: white;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin: 50px 0;
 }
 #portfolio .portfolio-menu ul li {
-  font-size: 1rem;
   padding: 10px 20px;
   margin: 0px 10px;
   border: 2px solid #9acd32;
@@ -1474,13 +1410,11 @@ h3 .head-green {
   width: 100%;
   height: 73%;
   display: block;
-  position: relative;
 }
 #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail::after {
   content: "";
   width: 100%;
   height: 100%;
-  position: absolute;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.6);
@@ -1499,7 +1433,6 @@ h3 .head-green {
   border-radius: 7px;
 }
 #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail i {
-  position: absolute;
   top: 45%;
   left: 45%;
   z-index: 3;
@@ -1590,7 +1523,6 @@ h3 .head-green {
 #team .team-content .team-content-item .team-member {
   width: 100%;
   height: 73%;
-  position: relative;
 }
 #team .team-content .team-content-item .team-member a {
   width: 100%;
@@ -1611,21 +1543,16 @@ h3 .head-green {
 #team .team-content .team-content-item .team-member .team-member-social {
   width: 100%;
   height: 100%;
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   z-index: 5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   opacity: 0;
 }
 #team .team-content .team-content-item .team-member .team-member-social::before {
   content: "";
   width: 100%;
   height: 100%;
-  position: absolute;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.6);
@@ -1633,7 +1560,6 @@ h3 .head-green {
 }
 #team .team-content .team-content-item .team-member .team-member-social a i {
   font-size: 2rem;
-  position: relative;
   z-index: 5;
 }
 #team .team-content .team-content-item .team-member .team-member-info {
@@ -1687,7 +1613,6 @@ h3 .head-green {
   content: "";
   width: 100%;
   height: 100%;
-  position: absolute;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.6);
@@ -1747,7 +1672,6 @@ h3 .head-green {
   color: white;
   border: none;
   cursor: pointer;
-  font-weight: 600;
   z-index: 5;
 }
 #newsLetter .newsLetter-item form .common-button::before {

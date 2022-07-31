@@ -19,14 +19,14 @@
     }
 
     .testimonial-content{
-        
-        position: relative;
+        @extend .flex;
+        @extend .align-center;
+        @extend .flex--justify-center;
+        @extend .p-relative;
         z-index: 3;
-        color: white;
-        display: flex;
+        color: white;       
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
         @extend .mt-40;
         h1 {
             font-size: 3.5rem;
@@ -42,10 +42,11 @@
     }
 
     .testimonial-content-detail{
-        display: flex;
+        
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend .flex;
+        @extend .align-center;
+        @extend .flex--justify-center;
         
         img{
             border: 6px solid #f9f9f9;
@@ -65,14 +66,12 @@
         }
 
         h5,h6{
-            font-weight: 500;
-            font-size: 1.3rem;
+            @extend .large-font;
+            @extend .fw-500;
             margin: 0px;
 
         }
 
     }
-
-
 
 }

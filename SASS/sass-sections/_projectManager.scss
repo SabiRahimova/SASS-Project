@@ -28,7 +28,7 @@
         img{
             border-radius: 50%;
             border: 15px solid #9acd32;
-            position: relative;
+            @extend .p-relative;
             z-index: 3;
             top: 100px;
             max-width: 100%;
@@ -39,7 +39,7 @@
     }
 
     .project-content{
-        position: relative;
+        @extend .p-relative;
         z-index: 3;
         top: 100px;
         color: white;
@@ -76,12 +76,12 @@
                 text-align: center;
                 color: white;                    
                 cursor: pointer;
-                position: relative;                
-                font-weight: 600;
+                @extend .p-relative;               
+                @extend .fw-600;
                 z-index: 5;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                @extend .flex;
+                @extend .align-center;
+                @extend .flex--justify-center;
                 &::before{                   
                     content: "\f099";                   
                     position: absolute;

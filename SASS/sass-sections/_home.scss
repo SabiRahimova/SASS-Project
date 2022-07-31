@@ -76,7 +76,8 @@ body{
         @extend .flex;
         @extend .align-center;
         @extend .flex--justify-center;
-        height: 350px;
+        @extend .p-relative;
+        z-index: 1;
         flex-direction: column;
 
         .main-button{
@@ -90,9 +91,8 @@ body{
             @extend .align-center;
             @extend .flex--justify-center;
             @extend .p-40;
-            @extend .p-absolute;
-            top:40%;
-            z-index: 1;
+           
+
             color: white;
             font-size: 3.5rem;
             font-weight: bolder;
@@ -139,10 +139,10 @@ body{
         color: white;
         border: none;
         cursor: pointer;
-        @extend .p-absolute;                
+        @extend .p-relative;              
         @extend .fw-600;
         z-index: 1;
-        top:65%;
+        
         &::before{                   
             content: "\f063";                   
             @extend .p-absolute;
