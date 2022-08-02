@@ -16,7 +16,7 @@ a {
   color: white;
 }
 
-.flex, #footer .footer-head ul li a, #logo ul, #contactBase .input-container i, #contactBase .input-container, #contactBase .row .common-button, #contactBase .row form, #contact .contact-content i, #contact .contact-content, #blog .common-button, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-item form .input-container, #newsLetter .newsLetter-head, #team .team-content .team-content-item .team-member .team-member-info, #team .team-content .team-content-item .team-member .team-member-social a, #team .team-content .team-content-item .team-member .team-member-social, #fact .fact-content .fact-content-item, #fact .fact-head, #portfolio .portfolio-menu ul, #testimonials .testimonial-content-detail, #testimonials .testimonial-content, #services .flip-card-back .inner i, #services .flip-card-front .inner, .info-head, #projectManager .project-content .project-content-item a, #about .common-button, #about .info-content .info-link, #home .common-button, #home .home-content a, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, #home .header-navbar label, #home .header-navbar, .row {
+.flex, #footer .footer-head ul li a, #logo ul, #contactBase .input-container i, #contactBase .input-container, #contactBase .row .common-button, #contactBase .row form, #contact .contact-content i, #contact .contact-content, #blog .common-button, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-item form .input-container, #newsLetter .newsLetter-head, #team .team-content .team-content-item .team-member .team-member-info, #team .team-content .team-content-item .team-member .team-member-social, #fact .fact-content .fact-content-item, #fact .fact-head, #portfolio .portfolio-menu ul, #testimonials .testimonial-content-detail, #testimonials .testimonial-content, #services .flip-card-back .inner i, #services .flip-card-front .inner, .info-head, #projectManager .project-content .project-content-item a, #about .common-button, #about .info-content .info-link, #home .common-button, #home .home-content a, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, #home .header-navbar label, #home .header-navbar, .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@ a {
           align-items: flex-end;
 }
 
-.align-center, #footer .footer-head ul li a, #contactBase .input-container i, #contactBase .row .common-button, #contact .contact-content i, #blog .common-button, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-head, #team .team-content .team-content-item .team-member .team-member-info, #team .team-content .team-content-item .team-member .team-member-social a, #fact .fact-content .fact-content-item, #fact .fact-content, #fact .fact-head, #testimonials .testimonial-content-detail, #testimonials .testimonial-content, #services .flip-card-front .inner, .info-head, #projectManager .project-content .project-content-item a, #about .common-button, #about .info-content .info-link, #home .common-button, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, #home .header-navbar label, .row {
+.align-center, #footer .footer-head ul li a, #contactBase .input-container i, #contactBase .row .common-button, #contact .contact-content i, #blog .common-button, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-head, #team .team-content .team-content-item .team-member .team-member-info, #fact .fact-content .fact-content-item, #fact .fact-content, #fact .fact-head, #testimonials .testimonial-content-detail, #testimonials .testimonial-content, #services .flip-card-front .inner, .info-head, #projectManager .project-content .project-content-item a, #about .common-button, #about .info-content .info-link, #home .common-button, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, #home .header-navbar label, .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -64,7 +64,7 @@ a {
           justify-content: flex-end;
 }
 
-.flex--justify-center, #footer .footer-head ul li a, #contactBase .input-container i, #contact .contact-content i, #newsLetter .newsLetter-item form .common-button, #team .team-content .team-content-item .team-member .team-member-info, #team .team-content .team-content-item .team-member .team-member-social a, #fact .fact-content .fact-content-item, #fact .fact-content, #fact .fact-head, #portfolio .portfolio-menu ul, #testimonials .testimonial-content-detail, #testimonials .testimonial-content, #services .flip-card-back .inner i, #services .flip-card-front .inner, .info-head, #projectManager .project-content .project-content-item a, #home .home-content a, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, .row {
+.flex--justify-center, #footer .footer-head ul li a, #contactBase .input-container i, #contact .contact-content i, #newsLetter .newsLetter-item form .common-button, #team .team-content .team-content-item .team-member .team-member-info, #fact .fact-content .fact-content-item, #fact .fact-content, #fact .fact-head, #portfolio .portfolio-menu ul, #testimonials .testimonial-content-detail, #testimonials .testimonial-content, #services .flip-card-back .inner i, #services .flip-card-front .inner, .info-head, #projectManager .project-content .project-content-item a, #home .home-content a, #home .home-content p, #home .home-content .main-button, #home .home-content, #home .header-navbar ul, .row {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -686,11 +686,11 @@ a {
   font-size: 0.9rem;
 }
 
-.p-relative, #footer .footer-head ul li a, #contactBase .section-header, #contactBase .row .common-button span, #contactBase .row .common-button, #contactBase .row form, #contactBase, #contact, #blog-video .video-item .video-item-detail a, #blog-video .video-item, #blog-video .video-head, #blog-video, #blog .common-button span, #blog .common-button, #blog .blog-content .blog-content-item, #newsLetter .newsLetter-item form .common-button span, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-item, #newsLetter .newsLetter-head, #newsLetter, #team .team-content .team-content-item .team-member .team-member-social a i, #team .team-content .team-content-item .team-member, #fact .fact-content, #fact .fact-head, #fact, #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail, #testimonials .testimonial-content, #services .flip-card-back .inner p, #services .flip-card-back .inner span, #services .service-content-flip-card, #projectManager .project-content .project-content-item a, #projectManager .project-content, #projectManager .project-img img, #about .common-button span, #about .common-button, #about .info-content-right img, #about .info-content-right, #home .common-button span, #home .common-button, #home .home-content a i, #home .home-content a, #home .home-content, #home .header-navbar, #home .header-logo, #home {
+.p-relative, #footer .footer-head ul li a, #contactBase .section-header, #contactBase .row .common-button span, #contactBase .row .common-button, #contactBase .row form, #contactBase, #contact, #blog-video .video-item .video-item-detail a, #blog-video .video-item, #blog-video .video-head, #blog-video, #blog .common-button span, #blog .common-button, #blog .blog-content .blog-content-item, #newsLetter .newsLetter-item form .common-button span, #newsLetter .newsLetter-item form .common-button, #newsLetter .newsLetter-item, #newsLetter .newsLetter-head, #newsLetter, #team .team-content .team-content-item .team-member, #fact .fact-content, #fact .fact-head, #fact, #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail, #testimonials .testimonial-content, #services .flip-card-back .inner p, #services .flip-card-back .inner span, #services .service-content-flip-card, #projectManager .project-content .project-content-item a, #projectManager .project-content, #projectManager .project-img img, #about .common-button span, #about .common-button, #about .info-content-right img, #about .info-content-right, #home .common-button span, #home .common-button, #home .home-content a i, #home .home-content a, #home .home-content, #home .header-navbar, #home .header-logo, #home {
   position: relative;
 }
 
-.p-absolute, #footer .footer-head ul li a::before, #contactBase .row .common-button::before, #contactBase::after, #contact .contact-content, #blog-video::after, #blog .common-button::before, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button::before, #newsLetter::after, #team .team-content .team-content-item .team-member .team-member-social::before, #team .team-content .team-content-item .team-member .team-member-social, #fact::after, #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail i, #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail::after, #services .flip-card-back .inner,
+.p-absolute, #footer .footer-head ul li a::before, #contactBase .row .common-button::before, #contactBase::after, #contact .contact-content, #blog-video::after, #blog .common-button::before, #blog .blog-content .blog-content-item .post-date, #newsLetter .newsLetter-item form .common-button::before, #newsLetter::after, #team .team-content .team-content-item .team-member .team-member-social, #team .team-content .team-content-item .team-member .team-member-img::before, #fact::after, #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail i, #portfolio .portfolio-content .portfolio-content-item .portfolio-content-detail::after, #services .flip-card-back .inner,
 #services .flip-card-front .inner, #services .flip-card-back, #about .common-button::before, #home .common-button::before {
   position: absolute;
 }
@@ -1513,6 +1513,9 @@ h3 .head-green {
   font-size: 4rem;
   color: #9acd32;
 }
+#team .container {
+  padding: 0px 70px;
+}
 #team .team-content {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
@@ -1524,12 +1527,21 @@ h3 .head-green {
   width: 100%;
   height: 73%;
 }
-#team .team-content .team-content-item .team-member a {
+#team .team-content .team-content-item .team-member .team-member-img {
   width: 100%;
   height: 100%;
   display: inline-block;
 }
-#team .team-content .team-content-item .team-member a img {
+#team .team-content .team-content-item .team-member .team-member-img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+}
+#team .team-content .team-content-item .team-member .team-member-img img {
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -1542,25 +1554,37 @@ h3 .head-green {
 }
 #team .team-content .team-content-item .team-member .team-member-social {
   width: 100%;
-  height: 100%;
-  top: 0;
+  top: 50%;
   left: 0;
   right: 0;
   z-index: 5;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   opacity: 0;
 }
-#team .team-content .team-content-item .team-member .team-member-social::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.6);
-  opacity: 0;
+#team .team-content .team-content-item .team-member .team-member-social a {
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid #fff;
 }
-#team .team-content .team-content-item .team-member .team-member-social a i {
-  font-size: 2rem;
-  z-index: 5;
+#team .team-content .team-content-item .team-member .team-member-social a::before {
+  content: "\f099";
+  font: 1.2rem FontAwesome;
+  padding: 8px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  color: #fff;
+}
+#team .team-content .team-content-item .team-member .team-member-social a:hover {
+  background-color: #fff;
+}
+#team .team-content .team-content-item .team-member .team-member-social a:hover::before {
+  color: #9acd32;
+  -webkit-transform: rotateY(360deg) !important;
+          transform: rotateY(360deg) !important;
 }
 #team .team-content .team-content-item .team-member .team-member-info {
   background-color: #151515;
