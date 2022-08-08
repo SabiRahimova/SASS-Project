@@ -61,7 +61,7 @@
                     opacity: 0;
                     
 
-                    a{
+                    .twitter{
                         border-radius: 30px;
                         display: flex;
                         border: 2px solid #fff;                                                
@@ -75,6 +75,32 @@
                         }
                             
                                                    
+                    }
+
+                    .facebook{
+                        border-radius: 30px;
+                        display: flex;
+                        border: 2px solid #fff;
+                        &::before{                   
+                            content: "\f09a"; 
+                            font: 1.2rem FontAwesome;                          
+                            padding: 8px;
+                            transition-duration: .5s;
+                            color:#fff;
+                        }
+                    }
+
+                    .github{
+                        border-radius: 30px;
+                        display: flex;
+                        border: 2px solid #fff;
+                        &::before{                   
+                            content: "\f0d5"; 
+                            font: 1.2rem FontAwesome;                          
+                            padding: 8px;
+                            transition-duration: .5s;
+                            color:#fff;
+                        }
                     }
 
                     a:hover{
@@ -141,3 +167,6 @@
 
     }
 }
+
+
+
